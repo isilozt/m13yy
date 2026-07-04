@@ -1,13 +1,7 @@
 {
-  "pointer": 2,
+  "pointer": 0,
   "posted": [],
-  "stage": "await_image",
-  "pending": {
-    "id": "mesnevi-b31",
-    "theme": "koz",
-    "theme_i": 2,
-    "image_rel": "published/2026-07-04_mesnevi-b31.png",
-    "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-07-04_mesnevi-b31.png"
-  },
-  "telegram_offset": 704633190
+  "stage": "idle",
+  "pending": null,
+  "telegram_offset": 0
 }

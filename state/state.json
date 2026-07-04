@@ -7,8 +7,13 @@
       "media_id": "18088099784642552"
     }
   ],
-  "stage": "idle",
-  "pending": null,
-  "telegram_offset": 704633206,
+  "stage": "await_publish",
+  "pending": {
+    "id": "mesnevi-b31",
+    "theme": "kahve",
+    "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-07-04_mesnevi-b31.png",
+    "caption": "“Kimin aşka meyli yoksa o kanatsız bir kuş gibidir, vah ona!”\nMevlânâ · Mesnevî-i Şerîf, c.1, b.31 · çev. Veled Çelebi İzbudak\n\nBizi Spotify'da takip etmeyi unutmayın 🧡\n\n🔗 Tüm bölümler için bağlantı profilde."
+  },
+  "telegram_offset": 704633207,
   "await_edit": false
 }

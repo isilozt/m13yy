@@ -25,9 +25,13 @@ def send_message(chat_id, text, buttons=None):
     return _call("sendMessage", **p)
 
 def answer_callback(cb_id, text=None):
+    # "aldım" bildirimi; eskimiş/geçersizse akışı BOZMASIN diye hatayı yutuyoruz
     p = {"callback_query_id": cb_id}
     if text: p["text"] = text
-    return _call("answerCallbackQuery", **p)
+    try:
+        return _call("answerCallbackQuery", **p)
+    except Exception:
+        return None
 
 def get_updates(offset=0, timeout=0):
     return _call("getUpdates", offset=offset, timeout=timeout,

@@ -1,13 +1,13 @@
 {
-  "pointer": 0,
+  "pointer": 2,
   "posted": [],
   "stage": "await_image",
   "pending": {
-    "id": "mesnevi-b20",
-    "theme": "parsomen",
-    "theme_i": 4,
-    "image_rel": "published/2026-07-04_mesnevi-b20.png",
-    "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-07-04_mesnevi-b20.png"
+    "id": "mesnevi-b31",
+    "theme": "koz",
+    "theme_i": 2,
+    "image_rel": "published/2026-07-04_mesnevi-b31.png",
+    "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-07-04_mesnevi-b31.png"
   },
-  "telegram_offset": 0
+  "telegram_offset": 704633190
 }

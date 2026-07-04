@@ -1,0 +1,118 @@
+{
+  "_not": "EDİTORYAL OMURGA. Her satır gerçek kaynaktan, künyeli. AI'ya alıntı ÜRETTİRME. kaynak_dogrulandi=true olmadan yayına girmez.",
+  "_alanlar": {
+    "id": "kısa kod",
+    "tema": "hashtag/caption için etiket (kartta görünmez)",
+    "metin_tr": "kartta basılacak metin",
+    "sahis": "MEVLÂNÂ …",
+    "eser": "kaynak + cilt/beyit",
+    "mutercim": "çeviri kime ait",
+    "kaynak_dogrulandi": "true olmadan yayınlanmaz",
+    "hashtagler": "bu girişe özel etiketler",
+    "tema_arkaplan": "(ops.) sabit zemin: gece|kahve|koz|is|parsomen"
+  },
+  "cerceve_cumleleri": {
+    "_not": "caption başına gelen kısa çerçeve (ops., tema bazında). Şimdilik boş."
+  },
+  "hashtag_setleri": {
+    "_default": [
+      "#tasavvuf",
+      "#mevlana",
+      "#mesnevi",
+      "#irfan"
+    ]
+  },
+  "girisler": [
+    {
+      "id": "mesnevi-b20",
+      "tema": "KANAAT",
+      "metin_tr": "Denizi bir testiye dökersen ne alır? Bir günün kısmetini…",
+      "sahis": "MEVLÂNÂ",
+      "eser": "Mesnevî-i Şerîf, c.1, b.20",
+      "mutercim": "Veled Çelebi İzbudak",
+      "kaynak_dogrulandi": true,
+      "hashtagler": [
+        "#mevlana",
+        "#mesnevi",
+        "#tasavvuf",
+        "#kanaat"
+      ],
+      "tema_arkaplan": "parsomen"
+    },
+    {
+      "id": "mesnevi-b30",
+      "tema": "VAHDET",
+      "metin_tr": "Her şey mâşuktur, âşık bir perdedir. Yaşayan mâşuktur, âşık bir ölüdür.",
+      "sahis": "MEVLÂNÂ",
+      "eser": "Mesnevî-i Şerîf, c.1, b.30",
+      "mutercim": "Veled Çelebi İzbudak",
+      "kaynak_dogrulandi": true,
+      "hashtagler": [
+        "#mevlana",
+        "#mesnevi",
+        "#tasavvuf",
+        "#vahdet"
+      ]
+    },
+    {
+      "id": "mesnevi-b31",
+      "tema": "AŞK",
+      "metin_tr": "Kimin aşka meyli yoksa o kanatsız bir kuş gibidir, vah ona!",
+      "sahis": "MEVLÂNÂ",
+      "eser": "Mesnevî-i Şerîf, c.1, b.31",
+      "mutercim": "Veled Çelebi İzbudak",
+      "kaynak_dogrulandi": true,
+      "hashtagler": [
+        "#mevlana",
+        "#mesnevi",
+        "#tasavvuf",
+        "#aşk"
+      ]
+    },
+    {
+      "id": "mesnevi-b18",
+      "tema": "OLUŞ",
+      "metin_tr": "Ham, pişkinin halinden anlamaz, öyle ise söz kısa kesilmelidir vesselâm.",
+      "sahis": "MEVLÂNÂ",
+      "eser": "Mesnevî-i Şerîf, c.1, b.18",
+      "mutercim": "Veled Çelebi İzbudak",
+      "kaynak_dogrulandi": true,
+      "hashtagler": [
+        "#mevlana",
+        "#mesnevi",
+        "#tasavvuf",
+        "#olgunluk"
+      ]
+    },
+    {
+      "id": "mesnevi-b29",
+      "tema": "GEÇİCİLİK",
+      "metin_tr": "Gül solup mevsim geçince artık bülbülden maceralar işitemezsin.",
+      "sahis": "MEVLÂNÂ",
+      "eser": "Mesnevî-i Şerîf, c.1, b.29",
+      "mutercim": "Veled Çelebi İzbudak",
+      "kaynak_dogrulandi": true,
+      "hashtagler": [
+        "#mevlana",
+        "#mesnevi",
+        "#tasavvuf",
+        "#geçicilik"
+      ]
+    },
+    {
+      "id": "mesnevi-b177",
+      "tema": "SABIR",
+      "metin_tr": "Tohum toprak içinde gizlenince, onun gizlenmesi, bahçenin yeşillenmesi ile neticelenir.",
+      "sahis": "MEVLÂNÂ",
+      "eser": "Mesnevî-i Şerîf, c.1, b.177",
+      "mutercim": "Veled Çelebi İzbudak",
+      "kaynak_dogrulandi": true,
+      "hashtagler": [
+        "#mevlana",
+        "#mesnevi",
+        "#tasavvuf",
+        "#sabır"
+      ]
+    }
+  ]
+}

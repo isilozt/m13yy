@@ -1,7 +1,5 @@
 name: Kart hazırla (onaya sun)
 on:
-  schedule:
-    - cron: "0 7 * * *"
   workflow_dispatch: {}
 permissions:
   contents: write

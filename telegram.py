@@ -7,8 +7,11 @@ API = f"https://api.telegram.org/bot{TOKEN}"
 
 def _call(method, **params):
     r = requests.post(f"{API}/{method}", json=params, timeout=40)
-    r.raise_for_status()
-    return r.json()["result"]
+    data = r.json()
+    if not data.get("ok"):
+        raise RuntimeError(f"Telegram {method} hatası: "
+                           f"{data.get('error_code')} — {data.get('description')}")
+    return data["result"]
 
 def send_photo(chat_id, photo_url, caption=None, buttons=None):
     p = {"chat_id": chat_id, "photo": photo_url}

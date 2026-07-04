@@ -60,20 +60,17 @@ def pick(bank, state):
     return pool[idx], idx
 
 def build_caption(entry, bank):
-    parts = []
-    frame = (bank.get("cerceve_cumleleri") or {}).get(entry.get("tema"))
-    if frame:
-        parts += [frame, ""]
-    parts += [entry["metin_tr"], ""]
     attr = entry["sahis"]
-    if entry.get("eser"):     attr += f" — {entry['eser']}"
-    if entry.get("mutercim"): attr += f" (çev. {entry['mutercim']})"
-    parts += [attr]
-    tags = (entry.get("hashtagler")
-            or (bank.get("hashtag_setleri") or {}).get(entry.get("tema"))
-            or (bank.get("hashtag_setleri") or {}).get("_default") or [])
-    if tags:
-        parts += ["", " ".join(tags)]
+    if entry.get("eser"):     attr += f" · {entry['eser']}"
+    if entry.get("mutercim"): attr += f" · çev. {entry['mutercim']}"
+    parts = [
+        f"\u201c{entry['metin_tr']}\u201d",
+        attr,
+        "",
+        "Bizi Spotify'da takip etmeyi unutmayın 🧡",
+        "",
+        "🔗 Tüm bölümler için bağlantı profilde.",
+    ]
     return "\n".join(parts)
 
 def raw_url(path_rel):

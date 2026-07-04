@@ -106,7 +106,7 @@ def poll():
     for u in updates:
         offset = max(offset, u["update_id"] + 1); changed = True
         if u.get("callback_query"):
-            cq = u["callback_query"]; tg.answer_callback(cq["id"])
+            cq = u["callback_query"]
             handle_cb(bank, state, cq["data"])
         elif u.get("message", {}).get("text"):
             handle_text(bank, state, u["message"]["text"])

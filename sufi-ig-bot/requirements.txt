@@ -1,4 +1,0 @@
-playwright
-requests
-pynacl
-Pillow

@@ -19,7 +19,7 @@ Yerel test:
 import argparse, json, os, subprocess, sys, time, datetime as dt
 from pathlib import Path
 import requests
-from render import build_html, render, theme_for   # render.py'den
+from render import build_html, build_card, render, theme_for   # render.py'den
 
 ROOT = Path(__file__).parent
 STATE = ROOT / "state" / "state.json"
@@ -60,6 +60,13 @@ def pick(bank, state):
     return pool[idx], idx
 
 def build_caption(entry, bank):
+    if entry.get("tip") == "bilgi":
+        parts = [entry["metin_tr"]]
+        if entry.get("kaynak"):
+            parts += ["", f"Kaynak: {entry['kaynak']}"]
+        parts += ["", "Bizi Spotify'da takip etmeyi unutmayın 🧡",
+                  "", "🔗 Tüm bölümler için bağlantı profilde."]
+        return "\n".join(parts)
     attr = entry["sahis"]
     if entry.get("eser"):     attr += f" · {entry['eser']}"
     if entry.get("mutercim"): attr += f" · çev. {entry['mutercim']}"
@@ -141,9 +148,7 @@ def main():
     today = dt.date.today().isoformat()
     img_rel = f"published/{today}_{entry['id']}.png"
     img_path = ROOT / img_rel
-    render(build_html(tema=entry.get("tema", ""), quote=entry["metin_tr"],
-                      author=entry["sahis"], work=entry.get("eser", ""),
-                      theme_name=theme), img_path)
+    render(build_card(entry, theme), img_path)
     caption = build_caption(entry, bank)
     print(f"Seçilen: {entry['id']} | tema-arkaplan: {theme}\n--- CAPTION ---\n{caption}\n---")
 

@@ -1,5 +1,5 @@
 {
-  "pointer": 2,
+  "pointer": 3,
   "posted": [
     {
       "id": "mesnevi-b20",
@@ -10,15 +10,15 @@
       "id": "mesnevi-b31",
       "date": "2026-07-05",
       "media_id": "18115987354894064"
+    },
+    {
+      "id": "fact-mevlevi",
+      "date": "2026-07-05",
+      "media_id": "18116368736494994"
     }
   ],
-  "stage": "await_publish",
-  "pending": {
-    "id": "fact-mevlevi",
-    "theme": "koz",
-    "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-07-05_fact-mevlevi.png",
-    "caption": "Mevlânâ hayattayken hiçbir tarikat kurmadı. Mevlevîlik, ölümünden sonra oğlu Sultan Veled ve Hüsameddin Çelebi tarafından kuruldu.\n\nBizi Spotify'da takip etmeyi unutmayın 🧡\n\n🔗 Tüm bölümler için bağlantı profilde."
-  },
-  "telegram_offset": 704633212,
+  "stage": "idle",
+  "pending": null,
+  "telegram_offset": 704633215,
   "await_edit": false
 }

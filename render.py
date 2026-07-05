@@ -54,11 +54,30 @@ def build_html(*,tema,quote,author,work,theme_name):
         h=h.replace("{{"+k+"}}",str(v))
     return h
 
+FACT_TEMPLATE=(ROOT/"templates"/"card_fact.html").read_text(encoding="utf-8")
+
+def build_html_fact(*,etiket,metin,theme_name):
+    t=THEMES[theme_name]; logo=LOGO_DARK if t["logo"]=="dark" else LOGO_GOLD
+    h=FACT_TEMPLATE.replace("/*THEME*/",theme_css(t)).replace("GIRIH_TILE",girih_uri(t["girih"]))
+    # bilgi metni genelde daha uzun -> biraz daha küçük başlat (fit zaten ayarlar)
+    h=h.replace("QUOTE_SIZE",str(min(quote_size(metin),72))).replace("LOGO_SRC",data_uri(logo,"image/png"))
+    for k,v in {"ETIKET":etiket,"METIN":metin}.items():
+        h=h.replace("{{"+k+"}}",str(v))
+    return h
+
+def build_card(entry, theme_name):
+    """Girişin tipine göre alıntı ya da bilgi kartı üretir."""
+    if entry.get("tip")=="bilgi":
+        return build_html_fact(etiket=entry.get("etiket",""), metin=entry["metin_tr"],
+                               theme_name=theme_name)
+    return build_html(tema=entry.get("tema",""), quote=entry["metin_tr"],
+                      author=entry["sahis"], work=entry.get("eser",""), theme_name=theme_name)
+
 FIT_JS = """() => {
   const stage=document.querySelector('.stage');
   const head=document.querySelector('.head');
   const foot=document.querySelector('.foot');
-  const q=document.querySelector('.quote');
+  const q=document.querySelector('.quote')||document.querySelector('.info');
   const cs=getComputedStyle(stage);
   const avail=stage.clientHeight
     - parseFloat(cs.paddingTop) - parseFloat(cs.paddingBottom)

@@ -12,8 +12,13 @@
       "media_id": "18115987354894064"
     }
   ],
-  "stage": "idle",
-  "pending": null,
-  "telegram_offset": 704633211,
+  "stage": "await_publish",
+  "pending": {
+    "id": "fact-mevlevi",
+    "theme": "koz",
+    "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-07-05_fact-mevlevi.png",
+    "caption": "Mevlânâ hayattayken hiçbir tarikat kurmadı. Mevlevîlik, ölümünden sonra oğlu Sultan Veled ve Hüsameddin Çelebi tarafından kuruldu.\n\nBizi Spotify'da takip etmeyi unutmayın 🧡\n\n🔗 Tüm bölümler için bağlantı profilde."
+  },
+  "telegram_offset": 704633212,
   "await_edit": false
 }

@@ -360,6 +360,41 @@
       "metin_tr": "Şiî bir aileden gelen Gölpınarlı, ömrünü Mevlânâ ve Mevlevîlik araştırmalarına adadı; anlatılana göre Mevlânâ'dan söz ederken gözleri yaşarırdı.",
       "kaynak": "",
       "kaynak_dogrulandi": true
+    },
+    {
+      "id": "kav-vahdet",
+      "tip": "bilgi",
+      "etiket": "KAVRAM · VAHDET-İ VÜCÛD",
+      "metin_tr": "“Varlığın birliği” öğretisi. İbn Arabî ile anılır: gerçek varlık tektir; âlemdeki her şey O'nun isim ve sıfatlarının bir tecellîsi, bir yansımasıdır.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "kav-fena",
+      "tip": "bilgi",
+      "etiket": "KAVRAM · FENÂ",
+      "metin_tr": "“Yok oluş.” Kişinin benliğinin Hak'ta erimesi — bir damlanın denize karışması gibi. Tasavvuf yolunun temel eşiklerinden.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "kav-sema",
+      "tip": "bilgi",
+      "etiket": "KAVRAM · SEMÂ",
+      "metin_tr": "Sözlükte “işitmek.” Mevlevî semâında sağ el göğe, sol el yere döner: yukarıdan alınanı halka dağıtmanın sembolü. Kâinatın dönüşüne katılmak.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "kav-ayn",
+      "tip": "bilgi",
+      "etiket": "KAVRAM · AYN-I SÂBİTE",
+      "metin_tr": "İbn Arabî'nin kavramı: her şeyin, daha yaratılmadan önce ilâhî ilimde sabit duran hakikati, özü.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "kav-insankamil",
+      "tip": "bilgi",
+      "etiket": "KAVRAM · İNSAN-I KÂMİL",
+      "metin_tr": "“Olgun insan.” Hakk'ın bütün isimlerini kendinde toplayan, âlemin bir özeti sayılan kâmil insan; yolun varış noktası.",
+      "kaynak_dogrulandi": true
     }
   ]
 }

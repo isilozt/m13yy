@@ -16,7 +16,7 @@ Yerel test (Telegram/IG'siz):  python bot.py prepare --dry
 import argparse, datetime as dt, os
 from pathlib import Path
 import telegram as tg
-from render import build_html, render, theme_for
+from render import build_html, build_card, render, theme_for
 from post import (approved, build_caption, pick, ig_publish, raw_url,
                   wait_until_live, load_bank, load_state, save_state, sh, ROOT, PUBDIR)
 
@@ -45,9 +45,7 @@ def render_and_push(entry, theme):
     PUBDIR.mkdir(exist_ok=True)
     today = dt.date.today().isoformat()
     rel = f"published/{today}_{entry['id']}.png"
-    render(build_html(tema=entry.get("tema", ""), quote=entry["metin_tr"],
-                      author=entry["sahis"], work=entry.get("eser", ""),
-                      theme_name=theme), ROOT / rel)
+    render(build_card(entry, theme), ROOT / rel)
     commit(f"kart: {entry['id']} ({theme})", rel)
     url = raw_url(rel)
     wait_until_live(url)
@@ -61,15 +59,30 @@ def send_card(url, caption):
         tg.send_photo(CHAT, url)
         tg.send_message(CHAT, caption, buttons=PUB_BTNS)
 
-def queue_next(bank, state):
-    """idle ise sıradaki kartı hazırlayıp yollar. state'i günceller."""
+def pick_typed(bank, state, tip=None):
+    """tip: 'bilgi' | 'alinti' | None(farketmez). Onaylı, paylaşılmamışı sırayla seçer."""
+    items = approved(bank)
+    if tip == "bilgi":
+        items = [g for g in items if g.get("tip") == "bilgi"]
+    elif tip == "alinti":
+        items = [g for g in items if g.get("tip") != "bilgi"]
+    if not items:
+        return None
+    posted_ids = {p.get("id") for p in state.get("posted", [])}
+    fresh = [g for g in items if g["id"] not in posted_ids]
+    pool = fresh if fresh else items
+    return pool[state.get("pointer", 0) % len(pool)]
+
+def queue_next(bank, state, tip=None):
+    """idle ise sıradaki kartı hazırlayıp yollar. tip ile alıntı/bilgi süzülür."""
     if state.get("stage", "idle") != "idle":
         tg.send_message(CHAT, "Onay bekleyen bir kart zaten var. Önce onu bitir "
                               "(Yayınla / Atla).")
         return False
-    entry, _ = pick(bank, state)
+    entry = pick_typed(bank, state, tip)
     if not entry:
-        tg.send_message(CHAT, "Bankada paylaşılacak onaylı alıntı kalmadı.")
+        ne = {"bilgi": "bilgi kartı", "alinti": "alıntı"}.get(tip, "kart")
+        tg.send_message(CHAT, f"Bankada paylaşılacak yeni {ne} kalmadı.")
         return False
     theme = entry.get("tema_arkaplan") if entry.get("tema_arkaplan") \
             else theme_for(entry, state.get("pointer", 0))
@@ -88,9 +101,7 @@ def prepare(dry=False):
         entry = entry or (approved(bank) or bank["girisler"])[0]
         theme = entry.get("tema_arkaplan") or theme_for(entry, state.get("pointer", 0))
         PUBDIR.mkdir(exist_ok=True)
-        render(build_html(tema=entry.get("tema", ""), quote=entry["metin_tr"],
-                          author=entry["sahis"], work=entry.get("eser", ""),
-                          theme_name=theme), ROOT / f"published/_dry_{entry['id']}.png")
+        render(build_card(entry, theme), ROOT / f"published/_dry_{entry['id']}.png")
         print(f"[dry] {entry['id']} / {theme}\n--- CAPTION ---\n{build_caption(entry, bank)}")
         return
     if queue_next(bank, state):
@@ -142,9 +153,16 @@ def handle_text(bank, state, text):
     t = text.strip()
     if t.lower() in ("sonraki", "/sonraki", "next"):
         queue_next(bank, state); return
+    if t.lower() in ("bilgi", "/bilgi"):
+        queue_next(bank, state, tip="bilgi"); return
+    if t.lower() in ("alıntı", "alinti", "/alinti"):
+        queue_next(bank, state, tip="alinti"); return
     if t.lower() in ("/start", "start", "merhaba"):
         tg.send_message(CHAT, "Merhaba! Kart geldikçe görsel+caption tek mesajda gelir; "
-                              "Yayınla dersen paylaşılır. Yeni kart için 'sonraki' yaz."); return
+                              "Yayınla dersen paylaşılır.\n\nKomutlar:\n"
+                              "• sonraki — sıradaki kart (farketmez)\n"
+                              "• alıntı — sıradaki alıntı kartı\n"
+                              "• bilgi — sıradaki bilgi kartı"); return
     if state.get("stage") == "await_publish":       # metin = yeni caption
         pend = state.get("pending") or {}
         pend["caption"] = text; state["pending"] = pend; state["await_edit"] = False

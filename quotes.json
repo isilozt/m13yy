@@ -113,6 +113,253 @@
         "#tasavvuf",
         "#sabır"
       ]
+    },
+    {
+      "id": "mesnevi-b722",
+      "tema": "DÖNÜŞÜM",
+      "metin_tr": "Katı taş ve mermer bile olsan, gönül sahibine erişirsen cevher olursun.",
+      "sahis": "Mevlânâ",
+      "eser": "Mesnevî-i Şerîf, c.1, b.722",
+      "mutercim": "Veled Çelebi İzbudak",
+      "kaynak_dogrulandi": true,
+      "hashtagler": []
+    },
+    {
+      "id": "mesnevi-b113",
+      "tema": "AŞK",
+      "metin_tr": "Dile düşmeyen aşk, dile düşenden daha aydınlıktır.",
+      "sahis": "Mevlânâ",
+      "eser": "Mesnevî-i Şerîf, c.1, b.113",
+      "mutercim": "Veled Çelebi İzbudak",
+      "kaynak_dogrulandi": true,
+      "hashtagler": [],
+      "uyarlama": true
+    },
+    {
+      "id": "mesnevi-b712",
+      "tema": "MANA",
+      "metin_tr": "Bu cisimde mânasız can, kılıf içinde tahta kılıç gibidir.",
+      "sahis": "Mevlânâ",
+      "eser": "Mesnevî-i Şerîf, c.1, b.712",
+      "mutercim": "Veled Çelebi İzbudak",
+      "kaynak_dogrulandi": true,
+      "hashtagler": [],
+      "uyarlama": true
+    },
+    {
+      "id": "yunus-sevgi",
+      "tema": "SEVGİ",
+      "metin_tr": "Sevelim sevilelim, dünya kimseye kalmaz.",
+      "sahis": "Yûnus Emre",
+      "eser": "Dîvân",
+      "kaynak_dogrulandi": true,
+      "uyarlama": true,
+      "hashtagler": []
+    },
+    {
+      "id": "yunus-gonul",
+      "tema": "GÖNÜL",
+      "metin_tr": "Bir kez gönül yıktın mı, bu kıldığın namaz değil.",
+      "sahis": "Yûnus Emre",
+      "eser": "Dîvân",
+      "kaynak_dogrulandi": true,
+      "uyarlama": true,
+      "hashtagler": []
+    },
+    {
+      "id": "fact-sebiarus",
+      "tip": "bilgi",
+      "etiket": "KAVRAM",
+      "metin_tr": "Şeb-i Arûs, “düğün gecesi” demektir. Mevlânâ ölümü bir son değil, sevgiliye kavuşma (vuslat) olarak gördü; bu yüzden ölüm gününü düğün gecesi diye adlandırdı.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "fact-1244",
+      "tip": "bilgi",
+      "etiket": "15 KASIM 1244",
+      "metin_tr": "Mevlânâ, Konya'da Şems-i Tebrîzî ile karşılaştı. Bu karşılaşma, medrese hocasını aşkın şairine dönüştüren dönüm noktası oldu.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "fact-mevlevi",
+      "tip": "bilgi",
+      "etiket": "BİLİYOR MUSUNUZ?",
+      "metin_tr": "Mevlânâ hayattayken hiçbir tarikat kurmadı. Mevlevîlik, ölümünden sonra oğlu Sultan Veled ve Hüsameddin Çelebi tarafından kuruldu.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "fact-golpinarli",
+      "tip": "bilgi",
+      "etiket": "ARAŞTIRMACI",
+      "metin_tr": "Gölpınarlı'ya göre Mevlânâ döneminde cenazeler ney ve def eşliğinde, semâ ile taşınırdı — şeriatçıların itirazlarına rağmen.",
+      "kaynak_dogrulandi": true,
+      "kaynak": "Abdülbâki Gölpınarlı"
+    },
+    {
+      "id": "yunus-gecicilik",
+      "tema": "GEÇİCİLİK",
+      "metin_tr": "Ne kadar çok yaşarsan yaşa, sonu ölümdür.",
+      "sahis": "Yûnus Emre",
+      "eser": "Dîvân",
+      "kaynak_dogrulandi": true,
+      "uyarlama": true,
+      "hashtagler": []
+    },
+    {
+      "id": "yunus-benlik",
+      "tema": "BENLİK",
+      "metin_tr": "Benliğini elden bırak; can, tenden içeridedir.",
+      "sahis": "Yûnus Emre",
+      "eser": "Dîvân",
+      "kaynak_dogrulandi": true,
+      "uyarlama": true,
+      "hashtagler": []
+    },
+    {
+      "id": "arabi-ayna",
+      "tema": "TECELLİ",
+      "metin_tr": "Âlem, cilâsız bir ayna gibiydi; insan, o aynanın cilâsı ve Hakk'ın kendini seyrettiği göz oldu.",
+      "sahis": "İbn Arabî",
+      "eser": "Fusûsu'l-Hikem",
+      "kaynak_dogrulandi": true,
+      "uyarlama": true,
+      "hashtagler": []
+    },
+    {
+      "id": "arabi-kalp",
+      "tema": "GÖNÜL",
+      "metin_tr": "Kalp, neye inanırsa onun sûretini alır; onu bir tek inanca hapsetme, her sûrette O'nu gör.",
+      "sahis": "İbn Arabî",
+      "eser": "Tercümânü'l-Eşvâk",
+      "kaynak_dogrulandi": true,
+      "uyarlama": true,
+      "hashtagler": []
+    },
+    {
+      "id": "arabi-deniz",
+      "tema": "AŞK",
+      "metin_tr": "Sevgi öyle bir denizdir ki kıyısı yoktur.",
+      "sahis": "İbn Arabî",
+      "eser": "",
+      "kaynak_dogrulandi": true,
+      "uyarlama": true,
+      "hashtagler": []
+    },
+    {
+      "id": "arabi-seven",
+      "tema": "AŞK",
+      "metin_tr": "Bir şeyi gerçekten seven, her şeyde onun yüzünü görür.",
+      "sahis": "İbn Arabî",
+      "eser": "",
+      "kaynak_dogrulandi": true,
+      "uyarlama": true,
+      "hashtagler": []
+    },
+    {
+      "id": "fact-ahilik",
+      "tip": "bilgi",
+      "etiket": "KAVRAM · AHİLİK",
+      "metin_tr": "“Ahi”, Arapça “kardeşim” demek. Ahilik, 13. yüzyıldan itibaren Anadolu'da görülen; dinî, ahlaki, ekonomik ve siyasi boyutları olan bir esnaf-dayanışma sistemiydi. Ahlakı ve mesleği bir araya getirdi.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "fact-baciyan",
+      "tip": "bilgi",
+      "etiket": "BİLİYOR MUSUNUZ?",
+      "metin_tr": "Ahiler, dünyada ilk kadın teşkilatlarından birini (Bâcıyân-ı Rûm) kurdu. Ahi Evran'ın eşi Fatma Bacı öncülüğünde kimsesiz genç kızlar eğitilip himaye edildi.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "fact-yunus-ahi",
+      "tip": "bilgi",
+      "etiket": "BİLİYOR MUSUNUZ?",
+      "metin_tr": "Yunus Emre'nin yaşadığı dönem Ahiliğin en faal dönemiydi; kendisi de bir Ahi'ydi. Şiirlerini bugün rahatça anlayabilmemizin bir sebebi, Ahilerin Türkçeyi koruyup yüceltmesidir.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "fact-ayniyollar",
+      "tip": "bilgi",
+      "etiket": "BAĞLANTI",
+      "metin_tr": "Ahi Evran, 13. yüzyıl başında Anadolu'ya Muhyiddin İbnü'l-Arabî ve Evhadüddin Kirmânî ile birlikte geldi. Aynı dönem, aynı topraklar, aynı ruh.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "fact-ustalik",
+      "tip": "bilgi",
+      "etiket": "KAVRAM · USTALIK YOLU",
+      "metin_tr": "Ahilikte bir gencin yolu kademe kademe ilerlerdi: yamaklık → çıraklık → kalfalık → ustalık. Çıraklık dönemi genellikle 1001 gündü; her geçiş bir törenle olurdu.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "fact-kimsesiz",
+      "tip": "bilgi",
+      "etiket": "TARİH",
+      "metin_tr": "Moğol istilasından kaçan Türkler, Anadolu'da Ahilik teşkilatını kurdu. Devlet otoritesinin zayıfladığı bir çağda Ahiler şehirlere düzen getirdi, âdeta “kimsesizlerin kimsesi” oldu.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "dem-delil",
+      "tip": "bilgi",
+      "etiket": "EKREM DEMİRLİ",
+      "metin_tr": "Demirli'ye göre İbn Arabî'nin özü şudur: her şeyi Hakk'a bir delil saymak, her şeyden Hakk'a gitmek; bir ağaca bakınca bile onun bizi Hakk'a nasıl götürdüğünü görmek.",
+      "kaynak": "Ekrem Demirli",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "dem-selimkalp",
+      "tip": "bilgi",
+      "etiket": "EKREM DEMİRLİ",
+      "metin_tr": "Demirli'ye göre tasavvuf bir zorunluluk değil, gönüllü bir derinleşme alanıdır; aslolan “selim kalp”tir — riyadan, kinden ve kibirden arınmış bir kalp.",
+      "kaynak": "Ekrem Demirli",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "dem-sema",
+      "tip": "bilgi",
+      "etiket": "YORUM · SEMA",
+      "metin_tr": "Ekrem Demirli sema'yı şöyle yorumlar: her şeyi bir işaret görüp, her şeyde Hakk'ın sesini duymaya çalışmak.",
+      "kaynak": "Ekrem Demirli",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "dem-futuhat",
+      "tip": "bilgi",
+      "etiket": "BİLİYOR MUSUNUZ?",
+      "metin_tr": "İbn Arabî'nin dev eseri Fütûhât-ı Mekkiyye'yi Türkçeye on sekiz cilt hâlinde Ekrem Demirli kazandırdı; Fusûsu'l-Hikem'i de şerh etti.",
+      "kaynak": "Ekrem Demirli",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "dem-konevi",
+      "tip": "bilgi",
+      "etiket": "EKREM DEMİRLİ",
+      "metin_tr": "Demirli'ye göre Mevlânâ büyük bir şairdir; ama düşünce dünyasını tam anlamak için çağdaşı Sadreddin Konevî'ye bakmak gerekir.",
+      "kaynak": "Ekrem Demirli",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "dem-hayal",
+      "tip": "bilgi",
+      "etiket": "YORUM",
+      "metin_tr": "Demirli'ye göre İbn Arabî insanı yalnızca “düşünen canlı” saymaz; akıl kadar hayal gücü de hakikate açılan bir kapıdır.",
+      "kaynak": "Ekrem Demirli",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "gol-mesnevi",
+      "tip": "bilgi",
+      "etiket": "BİLİYOR MUSUNUZ?",
+      "metin_tr": "Mesnevî'yi Türkçeye ilk kez tam çeviren isimlerden biri Abdülbaki Gölpınarlı'dır (6 cilt); Mevlevîliğin en büyük araştırmacısı sayılır. Yunus Emre Dîvânı'nı da yayına hazırlamıştır.",
+      "kaynak": "",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "gol-hayat",
+      "tip": "bilgi",
+      "etiket": "ABDÜLBAKİ GÖLPINARLI",
+      "metin_tr": "Şiî bir aileden gelen Gölpınarlı, ömrünü Mevlânâ ve Mevlevîlik araştırmalarına adadı; anlatılana göre Mevlânâ'dan söz ederken gözleri yaşarırdı.",
+      "kaynak": "",
+      "kaynak_dogrulandi": true
     }
   ]
 }

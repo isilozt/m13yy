@@ -60,12 +60,14 @@ def send_card(url, caption):
         tg.send_message(CHAT, caption, buttons=PUB_BTNS)
 
 def pick_typed(bank, state, tip=None):
-    """tip: 'bilgi' | 'alinti' | None(farketmez). Onaylı, paylaşılmamışı sırayla seçer."""
+    """tip: 'bilgi' | 'alinti' | 'podcast' | None(farketmez). Onaylı, paylaşılmamışı sırayla seçer."""
     items = approved(bank)
     if tip == "bilgi":
-        items = [g for g in items if g.get("tip") == "bilgi"]
+        items = [g for g in items if g.get("tip") == "bilgi" and not g.get("bolum")]
     elif tip == "alinti":
-        items = [g for g in items if g.get("tip") != "bilgi"]
+        items = [g for g in items if g.get("tip") != "bilgi" and not g.get("bolum")]
+    elif tip == "podcast":
+        items = [g for g in items if g.get("bolum")]
     if not items:
         return None
     posted_ids = {p.get("id") for p in state.get("posted", [])}
@@ -157,12 +159,15 @@ def handle_text(bank, state, text):
         queue_next(bank, state, tip="bilgi"); return
     if t.lower() in ("alıntı", "alinti", "/alinti"):
         queue_next(bank, state, tip="alinti"); return
+    if t.lower() in ("bölüm", "bolum", "/bolum", "podcast"):
+        queue_next(bank, state, tip="podcast"); return
     if t.lower() in ("/start", "start", "merhaba"):
         tg.send_message(CHAT, "Merhaba! Kart geldikçe görsel+caption tek mesajda gelir; "
                               "Yayınla dersen paylaşılır.\n\nKomutlar:\n"
                               "• sonraki — sıradaki kart (farketmez)\n"
                               "• alıntı — sıradaki alıntı kartı\n"
-                              "• bilgi — sıradaki bilgi kartı"); return
+                              "• bilgi — sıradaki bilgi kartı\n"
+                              "• bölüm — sıradaki podcast/bölüm kartı"); return
     if state.get("stage") == "await_publish":       # metin = yeni caption
         pend = state.get("pending") or {}
         pend["caption"] = text; state["pending"] = pend; state["await_edit"] = False

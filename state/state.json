@@ -1,5 +1,5 @@
 {
-  "pointer": 4,
+  "pointer": 5,
   "posted": [
     {
       "id": "mesnevi-b20",
@@ -20,15 +20,15 @@
       "id": "fact-ahilik",
       "date": "2026-07-06",
       "media_id": "18085411166545215"
+    },
+    {
+      "id": "pod-carsu",
+      "date": "2026-07-06",
+      "media_id": "18044098757596535"
     }
   ],
-  "stage": "await_publish",
-  "pending": {
-    "id": "pod-carsu",
-    "theme": "parsomen",
-    "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-07-06_pod-carsu.png",
-    "caption": "“Çarşı” kelimesi “çâr-sû”dan gelir: dört yolun kesiştiği yer, yani crossroads.\n\n🎧 Bu konuyu podcast bölümümüzde konuştuk.\nSpotify, Apple Podcasts ya da YouTube'da \"Muhteşem 13. Yüzyıl Ahi Evran\" diye arat, karşına çıkarız.\n\n🔗 Tüm bölümler profildeki linkte."
-  },
-  "telegram_offset": 704633219,
+  "stage": "idle",
+  "pending": null,
+  "telegram_offset": 704633222,
   "await_edit": false
 }

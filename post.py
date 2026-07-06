@@ -60,6 +60,14 @@ def pick(bank, state):
     return pool[idx], idx
 
 def build_caption(entry, bank):
+    if entry.get("bolum"):
+        kisa = entry.get("bolum_kisa", "").strip()
+        arama = f'"Muhteşem 13. Yüzyıl {kisa}"' if kisa else '"Muhteşem 13. Yüzyıl"'
+        parts = [entry["metin_tr"], "",
+                 "🎧 Bu konuyu podcast bölümümüzde konuştuk.",
+                 f"Spotify, Apple Podcasts ya da YouTube'da {arama} diye arat, karşına çıkarız.",
+                 "", "🔗 Tüm bölümler profildeki linkte."]
+        return "\n".join(parts)
     if entry.get("tip") == "bilgi":
         parts = [entry["metin_tr"]]
         if entry.get("kaynak"):

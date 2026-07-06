@@ -17,8 +17,13 @@
       "media_id": "18116368736494994"
     }
   ],
-  "stage": "idle",
-  "pending": null,
-  "telegram_offset": 704633215,
+  "stage": "await_publish",
+  "pending": {
+    "id": "fact-ahilik",
+    "theme": "is",
+    "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-07-06_fact-ahilik.png",
+    "caption": "“Ahi”, Arapça “kardeşim” demek. Ahilik, 13. yüzyıldan itibaren Anadolu'da görülen; dinî, ahlaki, ekonomik ve siyasi boyutları olan bir esnaf-dayanışma sistemiydi. Ahlakı ve mesleği bir araya getirdi.\n\nBizi Spotify'da takip etmeyi unutmayın 🧡\n\n🔗 Tüm bölümler için bağlantı profilde."
+  },
+  "telegram_offset": 704633216,
   "await_edit": false
 }

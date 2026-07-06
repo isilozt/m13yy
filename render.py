@@ -28,6 +28,24 @@ THEMES = {
         "frame":"rgba(90,67,38,.30)","frame_inner":"rgba(42,30,22,.05)","logo":"gold","logo_filter":"none"},
 }
 ROTATION = ["gece","kahve","koz","is","parsomen"]
+# Podcast/bölüm kartları için SABİT zeminler (rotasyona girmez, kendi aralarında döner)
+THEMES["podcast"] = {"bg":"radial-gradient(120% 90% at 50% 12%, #16403F 0%, #0E2C2B 62%)",
+    "ink":"#ECE3D0","accent":"#D9A24E","muted":"#8FA7A4","girih":"#D9A24E","girih_op":.05,
+    "frame":"rgba(217,162,78,.30)","frame_inner":"rgba(236,227,208,.06)","logo":"gold","logo_filter":"none","solid":"#0E2C2B"}
+THEMES["podcast-murdum"] = {"bg":"radial-gradient(120% 90% at 50% 12%, #3E2544 0%, #241528 62%)",
+    "ink":"#ECE3D0","accent":"#D9A24E","muted":"#A38BA6","girih":"#D9A24E","girih_op":.05,
+    "frame":"rgba(217,162,78,.30)","frame_inner":"rgba(236,227,208,.06)","logo":"gold","logo_filter":"none","solid":"#241528"}
+THEMES["podcast-bordo"] = {"bg":"radial-gradient(120% 90% at 50% 12%, #4C1F29 0%, #2A1016 62%)",
+    "ink":"#ECE3D0","accent":"#D9A24E","muted":"#B58A8F","girih":"#D9A24E","girih_op":.05,
+    "frame":"rgba(217,162,78,.30)","frame_inner":"rgba(236,227,208,.06)","logo":"gold","logo_filter":"none","solid":"#2A1016"}
+PODCAST_THEMES = ["podcast","podcast-murdum","podcast-bordo"]
+
+def podcast_theme(entry):
+    ta = entry.get("tema_arkaplan") if entry else None
+    if ta in PODCAST_THEMES:
+        return ta
+    key = entry.get("id","x") if entry else "x"
+    return PODCAST_THEMES[sum(ord(c) for c in key) % len(PODCAST_THEMES)]
 
 GIRIH = ("<svg xmlns='http://www.w3.org/2000/svg' width='150' height='150' viewBox='0 0 150 150'>"
     "<g fill='none' stroke='STROKE' stroke-width='1.2'>"
@@ -65,8 +83,21 @@ def build_html_fact(*,etiket,metin,theme_name):
         h=h.replace("{{"+k+"}}",str(v))
     return h
 
+PODCAST_TEMPLATE=(ROOT/"templates"/"card_podcast.html").read_text(encoding="utf-8")
+
+def build_html_podcast(*,metin,bolum,entry=None):
+    t=THEMES[podcast_theme(entry)]; logo=LOGO_GOLD
+    h=PODCAST_TEMPLATE.replace("/*THEME*/",theme_css(t)+f"--solid:{t['solid']};")
+    h=h.replace("GIRIH_TILE",girih_uri(t["girih"]))
+    h=h.replace("QUOTE_SIZE",str(min(quote_size(metin),70))).replace("LOGO_SRC",data_uri(logo,"image/png"))
+    for k,v in {"METIN":metin,"BOLUM":bolum}.items():
+        h=h.replace("{{"+k+"}}",str(v))
+    return h
+
 def build_card(entry, theme_name):
-    """Girişin tipine göre alıntı ya da bilgi kartı üretir."""
+    """Girişin tipine göre kart üretir: bölüm(podcast) / bilgi / alıntı."""
+    if entry.get("bolum"):
+        return build_html_podcast(metin=entry["metin_tr"], bolum=entry["bolum"], entry=entry)
     if entry.get("tip")=="bilgi":
         return build_html_fact(etiket=entry.get("etiket",""), metin=entry["metin_tr"],
                                theme_name=theme_name)

@@ -1,5 +1,5 @@
 {
-  "pointer": 7,
+  "pointer": 8,
   "posted": [
     {
       "id": "mesnevi-b20",
@@ -25,15 +25,15 @@
       "id": "pod-carsu",
       "date": "2026-07-06",
       "media_id": "18044098757596535"
+    },
+    {
+      "id": "yunus-sevgi",
+      "date": "2026-07-07",
+      "media_id": "18106559594071378"
     }
   ],
-  "stage": "await_publish",
-  "pending": {
-    "id": "yunus-sevgi",
-    "theme": "koz",
-    "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-07-07_yunus-sevgi.png",
-    "caption": "“Sevelim sevilelim, dünya kimseye kalmaz.”\nYûnus Emre · Dîvân\n\nBizi Spotify'da takip etmeyi unutmayın 🧡\n\n🔗 Tüm bölümler için bağlantı profilde."
-  },
-  "telegram_offset": 704633231,
+  "stage": "idle",
+  "pending": null,
+  "telegram_offset": 704633234,
   "await_edit": false
 }

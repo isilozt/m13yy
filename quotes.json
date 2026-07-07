@@ -409,6 +409,51 @@
       "bolum_kisa": "Ahi Evran",
       "metin_tr": "Ahilikte hem başkasının hakkına girmek hem de tekelleşmek yasaktı. On esnaf anlaşıp fiyat yükseltemezdi.",
       "kaynak_dogrulandi": true
+    },
+    {
+      "id": "pod-py-nota",
+      "bolum": "Yunus Emre (6): Ölürse ten ölür, canlar ölesi değil",
+      "bolum_kisa": "Ölürse ten ölür",
+      "metin_tr": "Yedi notayla sonsuz müzik yaratabilirsin. Şarkın bitebilir ama sen bitemezsin.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "pod-py-kalpgozu",
+      "bolum": "Yunus Emre (6): Ölürse ten ölür, canlar ölesi değil",
+      "bolum_kisa": "Ölürse ten ölür",
+      "metin_tr": "Kalp gözü açıldığında, “ölüm” diye konuştuğumuz şey değişir.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "pod-py-besduyu",
+      "bolum": "Yunus Emre (6): Ölürse ten ölür, canlar ölesi değil",
+      "bolum_kisa": "Ölürse ten ölür",
+      "metin_tr": "Beş duyunun merkezine kendini koyma. Onlardan sıyrıldığında, bir parçası olduğun bütünü görmeye başlarsın.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "pod-py-ego",
+      "bolum": "Yunus Emre (6): Ölürse ten ölür, canlar ölesi değil",
+      "bolum_kisa": "Ölürse ten ölür",
+      "metin_tr": "Ego seni teklikte, yalnızca “sen” olmakta tutar; bütünü görmene engel olur.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "pod-py-fena",
+      "bolum": "Yunus Emre (6): Ölürse ten ölür, canlar ölesi değil",
+      "bolum_kisa": "Ölürse ten ölür",
+      "metin_tr": "Fena, egonun sonlanmasıdır: bedenin içine hapsolmuş “ben”den çıkmak.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "yunus-canlar",
+      "tema": "ÖLÜM",
+      "metin_tr": "Ölürse ten ölür, canlar ölesi değil; ten fânidir, can ölmez, çün gitti geri gelmez.",
+      "sahis": "Yûnus Emre",
+      "eser": "Dîvân",
+      "kaynak_dogrulandi": true,
+      "uyarlama": true,
+      "hashtagler": []
     }
   ]
 }

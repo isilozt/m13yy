@@ -1,5 +1,5 @@
 {
-  "pointer": 8,
+  "pointer": 9,
   "posted": [
     {
       "id": "mesnevi-b20",
@@ -30,15 +30,15 @@
       "id": "yunus-sevgi",
       "date": "2026-07-07",
       "media_id": "18106559594071378"
+    },
+    {
+      "id": "pod-py-kalpgozu",
+      "date": "2026-07-08",
+      "media_id": "17981580261029548"
     }
   ],
-  "stage": "await_publish",
-  "pending": {
-    "id": "pod-py-kalpgozu",
-    "theme": "is",
-    "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-07-08_pod-py-kalpgozu.png",
-    "caption": "Kalp gözü açıldığında, “ölüm” diye konuştuğumuz şey değişir.\n\n🎧 Bu konuyu podcast bölümümüzde konuştuk.\nSpotify, Apple Podcasts ya da YouTube'da \"Muhteşem 13. Yüzyıl Ölürse ten ölür\" diye arat, karşına çıkarız.\n\n🔗 Tüm bölümler profildeki linkte."
-  },
-  "telegram_offset": 704633235,
+  "stage": "idle",
+  "pending": null,
+  "telegram_offset": 704633236,
   "await_edit": false
 }

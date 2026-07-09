@@ -37,8 +37,13 @@
       "media_id": "17981580261029548"
     }
   ],
-  "stage": "idle",
-  "pending": null,
-  "telegram_offset": 704633236,
+  "stage": "await_publish",
+  "pending": {
+    "id": "dem-selimkalp",
+    "theme": "parsomen",
+    "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-07-09_dem-selimkalp.png",
+    "caption": "Demirli'ye göre tasavvuf bir zorunluluk değil, gönüllü bir derinleşme alanıdır; aslolan “selim kalp”tir: riyadan, kinden ve kibirden arınmış bir kalp.\n\nKaynak: Ekrem Demirli\n\nBizi Spotify'da takip etmeyi unutmayın 🧡\n\n🔗 Tüm bölümler için bağlantı profilde."
+  },
+  "telegram_offset": 704633237,
   "await_edit": false
 }

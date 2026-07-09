@@ -70,6 +70,8 @@ def build_caption(entry, bank):
         return "\n".join(parts)
     if entry.get("tip") == "bilgi":
         parts = [entry["metin_tr"]]
+        if entry.get("kaynak_tanim"):
+            parts += ["", entry["kaynak_tanim"]]
         if entry.get("kaynak"):
             parts += ["", f"Kaynak: {entry['kaynak']}"]
         parts += ["", "Bizi Spotify'da takip etmeyi unutmayın 🧡",

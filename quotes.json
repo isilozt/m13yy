@@ -193,7 +193,8 @@
       "etiket": "ARAŞTIRMACI",
       "metin_tr": "Gölpınarlı'ya göre Mevlânâ döneminde cenazeler ney ve def eşliğinde, semâ ile taşınırdı; şeriatçıların itirazlarına rağmen.",
       "kaynak_dogrulandi": true,
-      "kaynak": "Abdülbâki Gölpınarlı"
+      "kaynak": "Abdülbâki Gölpınarlı",
+      "kaynak_tanim": "Abdülbaki Gölpınarlı (1900-1982): Mevlânâ ve Mevlevîlik araştırmacısı, Mesnevî mütercimi."
     },
     {
       "id": "yunus-gecicilik",
@@ -220,40 +221,22 @@
       "tema": "TECELLİ",
       "metin_tr": "Âlem, cilâsız bir ayna gibiydi; insan, o aynanın cilâsı ve Hakk'ın kendini seyrettiği göz oldu.",
       "sahis": "İbn Arabî",
-      "eser": "Fusûsu'l-Hikem",
+      "eser": "Fusûsu'l-Hikem (Âdem Fassı)",
       "kaynak_dogrulandi": true,
       "uyarlama": true,
-      "hashtagler": []
+      "hashtagler": [],
+      "kaynak_link": "https://isamveri.org/pdfdrg/D02193/2009_IX_23/2009_IX_23_OGKEA.pdf"
     },
     {
       "id": "arabi-kalp",
       "tema": "GÖNÜL",
       "metin_tr": "Kalp, neye inanırsa onun sûretini alır; onu bir tek inanca hapsetme, her sûrette O'nu gör.",
       "sahis": "İbn Arabî",
-      "eser": "Tercümânü'l-Eşvâk",
+      "eser": "Fusûsu'l-Hikem / Tercümânü'l-Eşvâk",
       "kaynak_dogrulandi": true,
       "uyarlama": true,
-      "hashtagler": []
-    },
-    {
-      "id": "arabi-deniz",
-      "tema": "AŞK",
-      "metin_tr": "Sevgi öyle bir denizdir ki kıyısı yoktur.",
-      "sahis": "İbn Arabî",
-      "eser": "",
-      "kaynak_dogrulandi": true,
-      "uyarlama": true,
-      "hashtagler": []
-    },
-    {
-      "id": "arabi-seven",
-      "tema": "AŞK",
-      "metin_tr": "Bir şeyi gerçekten seven, her şeyde onun yüzünü görür.",
-      "sahis": "İbn Arabî",
-      "eser": "",
-      "kaynak_dogrulandi": true,
-      "uyarlama": true,
-      "hashtagler": []
+      "hashtagler": [],
+      "kaynak_link": "https://isamveri.org/pdfdrg/D02193/2009_IX_23/2009_IX_23_OGKEA.pdf"
     },
     {
       "id": "fact-ahilik",
@@ -302,48 +285,60 @@
       "tip": "bilgi",
       "etiket": "EKREM DEMİRLİ",
       "metin_tr": "Demirli'ye göre İbn Arabî'nin özü şudur: her şeyi Hakk'a bir delil saymak, her şeyden Hakk'a gitmek; bir ağaca bakınca bile onun bizi Hakk'a nasıl götürdüğünü görmek.",
-      "kaynak": "Ekrem Demirli",
-      "kaynak_dogrulandi": true
+      "kaynak": "Ekrem Demirli (söyleşi)",
+      "kaynak_dogrulandi": true,
+      "kaynak_link": "https://www.adanapost.com/oglum-ibni-arabiye-ibram-abi-diyor-16298h.htm",
+      "kaynak_tanim": "Ekrem Demirli: İbn Arabî ve Sadreddin Konevî uzmanı ilahiyatçı; Fütûhât ve Fusûs'u Türkçeye kazandırdı."
     },
     {
       "id": "dem-selimkalp",
       "tip": "bilgi",
       "etiket": "EKREM DEMİRLİ",
       "metin_tr": "Demirli'ye göre tasavvuf bir zorunluluk değil, gönüllü bir derinleşme alanıdır; aslolan “selim kalp”tir: riyadan, kinden ve kibirden arınmış bir kalp.",
-      "kaynak": "Ekrem Demirli",
-      "kaynak_dogrulandi": true
+      "kaynak": "Ekrem Demirli (söyleşi)",
+      "kaynak_dogrulandi": true,
+      "kaynak_link": "https://www.adanapost.com/oglum-ibni-arabiye-ibram-abi-diyor-16298h.htm",
+      "kaynak_tanim": "Ekrem Demirli: İbn Arabî ve Sadreddin Konevî uzmanı ilahiyatçı; Fütûhât ve Fusûs'u Türkçeye kazandırdı."
     },
     {
       "id": "dem-sema",
       "tip": "bilgi",
       "etiket": "YORUM · SEMA",
       "metin_tr": "Ekrem Demirli sema'yı şöyle yorumlar: her şeyi bir işaret görüp, her şeyde Hakk'ın sesini duymaya çalışmak.",
-      "kaynak": "Ekrem Demirli",
-      "kaynak_dogrulandi": true
+      "kaynak": "Ekrem Demirli (söyleşi)",
+      "kaynak_dogrulandi": true,
+      "kaynak_link": "https://www.adanapost.com/oglum-ibni-arabiye-ibram-abi-diyor-16298h.htm",
+      "kaynak_tanim": "Ekrem Demirli: İbn Arabî ve Sadreddin Konevî uzmanı ilahiyatçı; Fütûhât ve Fusûs'u Türkçeye kazandırdı."
     },
     {
       "id": "dem-futuhat",
       "tip": "bilgi",
       "etiket": "BİLİYOR MUSUNUZ?",
       "metin_tr": "İbn Arabî'nin dev eseri Fütûhât-ı Mekkiyye'yi Türkçeye on sekiz cilt hâlinde Ekrem Demirli kazandırdı; Fusûsu'l-Hikem'i de şerh etti.",
-      "kaynak": "Ekrem Demirli",
-      "kaynak_dogrulandi": true
+      "kaynak": "Ekrem Demirli (söyleşi)",
+      "kaynak_dogrulandi": true,
+      "kaynak_link": "https://www.adanapost.com/oglum-ibni-arabiye-ibram-abi-diyor-16298h.htm",
+      "kaynak_tanim": "Ekrem Demirli: İbn Arabî ve Sadreddin Konevî uzmanı ilahiyatçı; Fütûhât ve Fusûs'u Türkçeye kazandırdı."
     },
     {
       "id": "dem-konevi",
       "tip": "bilgi",
       "etiket": "EKREM DEMİRLİ",
-      "metin_tr": "Demirli'ye göre Mevlânâ büyük bir şairdir; ama düşünce dünyasını tam anlamak için çağdaşı Sadreddin Konevî'ye bakmak gerekir.",
-      "kaynak": "Ekrem Demirli",
-      "kaynak_dogrulandi": true
+      "metin_tr": "Demirli'ye göre tasavvufta doğru bir şey yapmak istiyorsan, önce Sadreddin Konevî'yle meseleni halletmen gerekir. Konevî, bu toprakların yetiştirdiği en büyük entelektüellerden.",
+      "kaynak": "Ekrem Demirli (söyleşi)",
+      "kaynak_dogrulandi": true,
+      "kaynak_link": "https://www.adanapost.com/oglum-ibni-arabiye-ibram-abi-diyor-16298h.htm",
+      "kaynak_tanim": "Ekrem Demirli: İbn Arabî ve Sadreddin Konevî uzmanı ilahiyatçı; Fütûhât ve Fusûs'u Türkçeye kazandırdı."
     },
     {
       "id": "dem-hayal",
       "tip": "bilgi",
       "etiket": "YORUM",
       "metin_tr": "Demirli'ye göre İbn Arabî insanı yalnızca “düşünen canlı” saymaz; akıl kadar hayal gücü de hakikate açılan bir kapıdır.",
-      "kaynak": "Ekrem Demirli",
-      "kaynak_dogrulandi": true
+      "kaynak": "Ekrem Demirli, İbnü'l Arabî Metafiziği",
+      "kaynak_dogrulandi": true,
+      "kaynak_link": "https://isamveri.org/pdfdrg/G00007/2014_1/2014_1_DEMIRLIE_KAHYAM.pdf",
+      "kaynak_tanim": "Ekrem Demirli: İbn Arabî ve Sadreddin Konevî uzmanı ilahiyatçı; Fütûhât ve Fusûs'u Türkçeye kazandırdı."
     },
     {
       "id": "gol-mesnevi",
@@ -351,7 +346,8 @@
       "etiket": "BİLİYOR MUSUNUZ?",
       "metin_tr": "Mesnevî'yi Türkçeye ilk kez tam çeviren isimlerden biri Abdülbaki Gölpınarlı'dır (6 cilt); Mevlevîliğin en büyük araştırmacısı sayılır. Yunus Emre Dîvânı'nı da yayına hazırlamıştır.",
       "kaynak": "",
-      "kaynak_dogrulandi": true
+      "kaynak_dogrulandi": true,
+      "kaynak_tanim": "Abdülbaki Gölpınarlı (1900-1982): Mevlânâ ve Mevlevîlik araştırmacısı, Mesnevî mütercimi."
     },
     {
       "id": "gol-hayat",
@@ -359,7 +355,8 @@
       "etiket": "ABDÜLBAKİ GÖLPINARLI",
       "metin_tr": "Şiî bir aileden gelen Gölpınarlı, ömrünü Mevlânâ ve Mevlevîlik araştırmalarına adadı; anlatılana göre Mevlânâ'dan söz ederken gözleri yaşarırdı.",
       "kaynak": "",
-      "kaynak_dogrulandi": true
+      "kaynak_dogrulandi": true,
+      "kaynak_tanim": "Abdülbaki Gölpınarlı (1900-1982): Mevlânâ ve Mevlevîlik araştırmacısı, Mesnevî mütercimi."
     },
     {
       "id": "kav-vahdet",

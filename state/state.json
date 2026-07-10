@@ -1,5 +1,5 @@
 {
-  "pointer": 11,
+  "pointer": 13,
   "posted": [
     {
       "id": "mesnevi-b20",
@@ -44,11 +44,11 @@
   ],
   "stage": "await_publish",
   "pending": {
-    "id": "yunus-gecicilik",
-    "theme": "kahve",
-    "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-07-10_yunus-gecicilik.png",
-    "caption": "“Ne kadar çok yaşarsan yaşa, sonu ölümdür.”\nYûnus Emre · Dîvân\n\nBizi Spotify'da takip etmeyi unutmayın 🧡\n\n🔗 Tüm bölümler için bağlantı profilde."
+    "id": "arabi-ayna",
+    "theme": "is",
+    "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-07-10_arabi-ayna.png",
+    "caption": "“Âlem, cilâsız bir ayna gibiydi; insan, o aynanın cilâsı ve Hakk'ın kendini seyrettiği göz oldu.”\nİbn Arabî · Fusûsu'l-Hikem (Âdem Fassı)\n\nBizi Spotify'da takip etmeyi unutmayın 🧡\n\n🔗 Tüm bölümler için bağlantı profilde."
   },
-  "telegram_offset": 704633246,
+  "telegram_offset": 704633254,
   "await_edit": false
 }

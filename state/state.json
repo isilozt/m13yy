@@ -1,5 +1,5 @@
 {
-  "pointer": 10,
+  "pointer": 11,
   "posted": [
     {
       "id": "mesnevi-b20",
@@ -44,11 +44,11 @@
   ],
   "stage": "await_publish",
   "pending": {
-    "id": "fact-golpinarli",
-    "theme": "gece",
-    "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-07-10_fact-golpinarli.png",
-    "caption": "Gölpınarlı'ya göre Mevlânâ döneminde cenazeler ney ve def eşliğinde, semâ ile taşınırdı; şeriatçıların itirazlarına rağmen.\n\nAbdülbaki Gölpınarlı (1900-1982): Mevlânâ ve Mevlevîlik araştırmacısı, Mesnevî mütercimi.\n\nKaynak: Abdülbâki Gölpınarlı\n\nBizi Spotify'da takip etmeyi unutmayın 🧡\n\n🔗 Tüm bölümler için bağlantı profilde."
+    "id": "yunus-gecicilik",
+    "theme": "kahve",
+    "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-07-10_yunus-gecicilik.png",
+    "caption": "“Ne kadar çok yaşarsan yaşa, sonu ölümdür.”\nYûnus Emre · Dîvân\n\nBizi Spotify'da takip etmeyi unutmayın 🧡\n\n🔗 Tüm bölümler için bağlantı profilde."
   },
-  "telegram_offset": 704633240,
+  "telegram_offset": 704633246,
   "await_edit": false
 }

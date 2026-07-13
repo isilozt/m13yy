@@ -47,8 +47,13 @@
       "media_id": "18085595588222049"
     }
   ],
-  "stage": "idle",
-  "pending": null,
-  "telegram_offset": 704633258,
+  "stage": "await_publish",
+  "pending": {
+    "id": "pod-py-fena",
+    "theme": "parsomen",
+    "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-07-13_pod-py-fena.png",
+    "caption": "Fena, egonun sonlanmasıdır: bedenin içine hapsolmuş “ben”den çıkmak.\n\n🎧 Bu konuyu podcast bölümümüzde konuştuk.\nSpotify, Apple Podcasts ya da YouTube'da \"Muhteşem 13. Yüzyıl Ölürse ten ölür\" diye arat, karşına çıkarız.\n\n🔗 Tüm bölümler profildeki linkte."
+  },
+  "telegram_offset": 704633259,
   "await_edit": false
 }

@@ -1,5 +1,5 @@
 {
-  "pointer": 15,
+  "pointer": 16,
   "posted": [
     {
       "id": "mesnevi-b20",
@@ -50,15 +50,15 @@
       "id": "pod-py-fena",
       "date": "2026-07-13",
       "media_id": "18576784558070579"
+    },
+    {
+      "id": "kav-vahdet",
+      "date": "2026-07-15",
+      "media_id": "17908967670259889"
     }
   ],
-  "stage": "await_publish",
-  "pending": {
-    "id": "kav-vahdet",
-    "theme": "gece",
-    "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-07-15_kav-vahdet.png",
-    "caption": "“Varlığın birliği” öğretisi. İbn Arabî ile anılır: gerçek varlık tektir; âlemdeki her şey O'nun isim ve sıfatlarının bir tecellîsi, bir yansımasıdır.\n\nBizi Spotify'da takip etmeyi unutmayın 🧡\n\n🔗 Tüm bölümler için bağlantı profilde."
-  },
-  "telegram_offset": 704633267,
+  "stage": "idle",
+  "pending": null,
+  "telegram_offset": 704633269,
   "await_edit": false
 }

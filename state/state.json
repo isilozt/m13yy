@@ -1,5 +1,5 @@
 {
-  "pointer": 16,
+  "pointer": 17,
   "posted": [
     {
       "id": "mesnevi-b20",
@@ -55,10 +55,15 @@
       "id": "kav-vahdet",
       "date": "2026-07-15",
       "media_id": "17908967670259889"
+    },
+    {
+      "id": "pod-tekel",
+      "date": "2026-07-18",
+      "media_id": "18087077942553243"
     }
   ],
   "stage": "idle",
   "pending": null,
-  "telegram_offset": 704633269,
+  "telegram_offset": 704633271,
   "await_edit": false
 }

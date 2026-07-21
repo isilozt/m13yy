@@ -1,5 +1,5 @@
 {
-  "pointer": 17,
+  "pointer": 18,
   "posted": [
     {
       "id": "mesnevi-b20",
@@ -60,15 +60,15 @@
       "id": "pod-tekel",
       "date": "2026-07-18",
       "media_id": "18087077942553243"
+    },
+    {
+      "id": "pod-py-ego",
+      "date": "2026-07-21",
+      "media_id": "18082968206423445"
     }
   ],
-  "stage": "await_publish",
-  "pending": {
-    "id": "pod-py-ego",
-    "theme": "koz",
-    "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-07-21_pod-py-ego.png",
-    "caption": "Ego seni teklikte, yalnızca “sen” olmakta tutar; bütünü görmene engel olur.\n\n🎧 Bu konuyu podcast bölümümüzde konuştuk.\nSpotify, Apple Podcasts ya da YouTube'da \"Muhteşem 13. Yüzyıl Ölürse ten ölür\" diye arat, karşına çıkarız.\n\n🔗 Tüm bölümler profildeki linkte."
-  },
-  "telegram_offset": 704633272,
+  "stage": "idle",
+  "pending": null,
+  "telegram_offset": 704633276,
   "await_edit": false
 }

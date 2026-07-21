@@ -188,15 +188,6 @@
       "kaynak_dogrulandi": true
     },
     {
-      "id": "fact-golpinarli",
-      "tip": "bilgi",
-      "etiket": "ARAŞTIRMACI",
-      "metin_tr": "Gölpınarlı'ya göre Mevlânâ döneminde cenazeler ney ve def eşliğinde, semâ ile taşınırdı; şeriatçıların itirazlarına rağmen.",
-      "kaynak_dogrulandi": true,
-      "kaynak": "Abdülbâki Gölpınarlı",
-      "kaynak_tanim": "Abdülbaki Gölpınarlı (1900-1982): Mevlânâ ve Mevlevîlik araştırmacısı, Mesnevî mütercimi."
-    },
-    {
       "id": "yunus-gecicilik",
       "tema": "GEÇİCİLİK",
       "metin_tr": "Ne kadar çok yaşarsan yaşa, sonu ölümdür.",
@@ -283,22 +274,28 @@
     {
       "id": "dem-delil",
       "tip": "bilgi",
-      "etiket": "EKREM DEMİRLİ",
+      "etiket": "YORUM",
       "metin_tr": "Demirli'ye göre İbn Arabî'nin özü şudur: her şeyi Hakk'a bir delil saymak, her şeyden Hakk'a gitmek; bir ağaca bakınca bile onun bizi Hakk'a nasıl götürdüğünü görmek.",
       "kaynak": "Ekrem Demirli (söyleşi)",
       "kaynak_dogrulandi": true,
       "kaynak_link": "https://www.adanapost.com/oglum-ibni-arabiye-ibram-abi-diyor-16298h.htm",
-      "kaynak_tanim": "Ekrem Demirli: İbn Arabî ve Sadreddin Konevî uzmanı ilahiyatçı; Fütûhât ve Fusûs'u Türkçeye kazandırdı."
+      "kaynak_tanim": "Ekrem Demirli: İbn Arabî ve Sadreddin Konevî uzmanı ilahiyatçı; Fütûhât ve Fusûs'u Türkçeye kazandırdı.",
+      "soyleyen": "Ekrem Demirli",
+      "soyleyen_alt": "İbn Arabî ve Sadreddin Konevî uzmanı ilahiyatçı; Fütûhât ve Fusûs'u Türkçeye kazandırdı.",
+      "kaynak_eser": "Adana Post söyleşisi"
     },
     {
       "id": "dem-selimkalp",
       "tip": "bilgi",
-      "etiket": "EKREM DEMİRLİ",
+      "etiket": "YORUM",
       "metin_tr": "Demirli'ye göre tasavvuf bir zorunluluk değil, gönüllü bir derinleşme alanıdır; aslolan “selim kalp”tir: riyadan, kinden ve kibirden arınmış bir kalp.",
       "kaynak": "Ekrem Demirli (söyleşi)",
       "kaynak_dogrulandi": true,
       "kaynak_link": "https://www.adanapost.com/oglum-ibni-arabiye-ibram-abi-diyor-16298h.htm",
-      "kaynak_tanim": "Ekrem Demirli: İbn Arabî ve Sadreddin Konevî uzmanı ilahiyatçı; Fütûhât ve Fusûs'u Türkçeye kazandırdı."
+      "kaynak_tanim": "Ekrem Demirli: İbn Arabî ve Sadreddin Konevî uzmanı ilahiyatçı; Fütûhât ve Fusûs'u Türkçeye kazandırdı.",
+      "soyleyen": "Ekrem Demirli",
+      "soyleyen_alt": "İbn Arabî ve Sadreddin Konevî uzmanı ilahiyatçı; Fütûhât ve Fusûs'u Türkçeye kazandırdı.",
+      "kaynak_eser": "Adana Post söyleşisi"
     },
     {
       "id": "dem-sema",
@@ -308,7 +305,10 @@
       "kaynak": "Ekrem Demirli (söyleşi)",
       "kaynak_dogrulandi": true,
       "kaynak_link": "https://www.adanapost.com/oglum-ibni-arabiye-ibram-abi-diyor-16298h.htm",
-      "kaynak_tanim": "Ekrem Demirli: İbn Arabî ve Sadreddin Konevî uzmanı ilahiyatçı; Fütûhât ve Fusûs'u Türkçeye kazandırdı."
+      "kaynak_tanim": "Ekrem Demirli: İbn Arabî ve Sadreddin Konevî uzmanı ilahiyatçı; Fütûhât ve Fusûs'u Türkçeye kazandırdı.",
+      "soyleyen": "Ekrem Demirli",
+      "soyleyen_alt": "İbn Arabî ve Sadreddin Konevî uzmanı ilahiyatçı; Fütûhât ve Fusûs'u Türkçeye kazandırdı.",
+      "kaynak_eser": "Adana Post söyleşisi"
     },
     {
       "id": "dem-futuhat",
@@ -318,17 +318,23 @@
       "kaynak": "Ekrem Demirli (söyleşi)",
       "kaynak_dogrulandi": true,
       "kaynak_link": "https://www.adanapost.com/oglum-ibni-arabiye-ibram-abi-diyor-16298h.htm",
-      "kaynak_tanim": "Ekrem Demirli: İbn Arabî ve Sadreddin Konevî uzmanı ilahiyatçı; Fütûhât ve Fusûs'u Türkçeye kazandırdı."
+      "kaynak_tanim": "Ekrem Demirli: İbn Arabî ve Sadreddin Konevî uzmanı ilahiyatçı; Fütûhât ve Fusûs'u Türkçeye kazandırdı.",
+      "soyleyen": "Ekrem Demirli",
+      "soyleyen_alt": "İbn Arabî ve Sadreddin Konevî uzmanı ilahiyatçı; Fütûhât ve Fusûs'u Türkçeye kazandırdı.",
+      "kaynak_eser": "Adana Post söyleşisi"
     },
     {
       "id": "dem-konevi",
       "tip": "bilgi",
-      "etiket": "EKREM DEMİRLİ",
+      "etiket": "YORUM",
       "metin_tr": "Demirli'ye göre tasavvufta doğru bir şey yapmak istiyorsan, önce Sadreddin Konevî'yle meseleni halletmen gerekir. Konevî, bu toprakların yetiştirdiği en büyük entelektüellerden.",
       "kaynak": "Ekrem Demirli (söyleşi)",
       "kaynak_dogrulandi": true,
       "kaynak_link": "https://www.adanapost.com/oglum-ibni-arabiye-ibram-abi-diyor-16298h.htm",
-      "kaynak_tanim": "Ekrem Demirli: İbn Arabî ve Sadreddin Konevî uzmanı ilahiyatçı; Fütûhât ve Fusûs'u Türkçeye kazandırdı."
+      "kaynak_tanim": "Ekrem Demirli: İbn Arabî ve Sadreddin Konevî uzmanı ilahiyatçı; Fütûhât ve Fusûs'u Türkçeye kazandırdı.",
+      "soyleyen": "Ekrem Demirli",
+      "soyleyen_alt": "İbn Arabî ve Sadreddin Konevî uzmanı ilahiyatçı; Fütûhât ve Fusûs'u Türkçeye kazandırdı.",
+      "kaynak_eser": "Adana Post söyleşisi"
     },
     {
       "id": "dem-hayal",
@@ -338,25 +344,36 @@
       "kaynak": "Ekrem Demirli, İbnü'l Arabî Metafiziği",
       "kaynak_dogrulandi": true,
       "kaynak_link": "https://isamveri.org/pdfdrg/G00007/2014_1/2014_1_DEMIRLIE_KAHYAM.pdf",
-      "kaynak_tanim": "Ekrem Demirli: İbn Arabî ve Sadreddin Konevî uzmanı ilahiyatçı; Fütûhât ve Fusûs'u Türkçeye kazandırdı."
+      "kaynak_tanim": "Ekrem Demirli: İbn Arabî ve Sadreddin Konevî uzmanı ilahiyatçı; Fütûhât ve Fusûs'u Türkçeye kazandırdı.",
+      "soyleyen": "Ekrem Demirli",
+      "soyleyen_alt": "İbn Arabî ve Sadreddin Konevî uzmanı ilahiyatçı; Fütûhât ve Fusûs'u Türkçeye kazandırdı.",
+      "kaynak_eser": "İbnü'l Arabî Metafiziği (Ekrem Demirli)"
     },
     {
       "id": "gol-mesnevi",
       "tip": "bilgi",
       "etiket": "BİLİYOR MUSUNUZ?",
       "metin_tr": "Mesnevî'yi Türkçeye ilk kez tam çeviren isimlerden biri Abdülbaki Gölpınarlı'dır (6 cilt); Mevlevîliğin en büyük araştırmacısı sayılır. Yunus Emre Dîvânı'nı da yayına hazırlamıştır.",
-      "kaynak": "",
+      "kaynak": "Abdülbaki Gölpınarlı (TDV İslâm Ansiklopedisi)",
       "kaynak_dogrulandi": true,
-      "kaynak_tanim": "Abdülbaki Gölpınarlı (1900-1982): Mevlânâ ve Mevlevîlik araştırmacısı, Mesnevî mütercimi."
+      "kaynak_tanim": "Abdülbaki Gölpınarlı (1900-1982): Mevlânâ ve Mevlevîlik araştırmacısı, Mesnevî mütercimi.",
+      "kaynak_link": "https://islamansiklopedisi.org.tr/golpinarli-abdulbaki",
+      "soyleyen": "Abdülbaki Gölpınarlı (1900-1982)",
+      "soyleyen_alt": "Mevlânâ ve Mevlevîlik araştırmacısı, Mesnevî mütercimi.",
+      "kaynak_eser": "TDV İslâm Ansiklopedisi"
     },
     {
       "id": "gol-hayat",
       "tip": "bilgi",
-      "etiket": "ABDÜLBAKİ GÖLPINARLI",
-      "metin_tr": "Şiî bir aileden gelen Gölpınarlı, ömrünü Mevlânâ ve Mevlevîlik araştırmalarına adadı; anlatılana göre Mevlânâ'dan söz ederken gözleri yaşarırdı.",
-      "kaynak": "",
+      "etiket": "BİLİYOR MUSUNUZ?",
+      "metin_tr": "Gölpınarlı ömrünü Mevlânâ ve Mevlevîlik araştırmalarına adadı; vefatında Üsküdar'daki Şiî mezarlığına defnedildi.",
+      "kaynak": "Abdülbaki Gölpınarlı (TDV İslâm Ansiklopedisi)",
       "kaynak_dogrulandi": true,
-      "kaynak_tanim": "Abdülbaki Gölpınarlı (1900-1982): Mevlânâ ve Mevlevîlik araştırmacısı, Mesnevî mütercimi."
+      "kaynak_tanim": "Abdülbaki Gölpınarlı (1900-1982): Mevlânâ ve Mevlevîlik araştırmacısı, Mesnevî mütercimi.",
+      "kaynak_link": "https://islamansiklopedisi.org.tr/golpinarli-abdulbaki",
+      "soyleyen": "Abdülbaki Gölpınarlı (1900-1982)",
+      "soyleyen_alt": "Mevlânâ ve Mevlevîlik araştırmacısı, Mesnevî mütercimi.",
+      "kaynak_eser": "TDV İslâm Ansiklopedisi"
     },
     {
       "id": "kav-vahdet",
@@ -451,6 +468,174 @@
       "kaynak_dogrulandi": true,
       "uyarlama": true,
       "hashtagler": []
+    },
+    {
+      "id": "gol-yunus",
+      "tip": "bilgi",
+      "etiket": "BİLİYOR MUSUNUZ?",
+      "metin_tr": "Yunus Emre'nin şiirlerinin ilk sağlam ve güvenilir metinlerine, Abdülbaki Gölpınarlı'nın sabırlı çalışmalarıyla kavuşuldu.",
+      "kaynak": "Abdülbaki Gölpınarlı (TDV İslâm Ansiklopedisi)",
+      "kaynak_link": "https://islamansiklopedisi.org.tr/golpinarli-abdulbaki",
+      "kaynak_tanim": "Abdülbaki Gölpınarlı (1900-1982): Mevlânâ ve Mevlevîlik araştırmacısı, Mesnevî mütercimi.",
+      "kaynak_dogrulandi": true,
+      "soyleyen": "Abdülbaki Gölpınarlı (1900-1982)",
+      "soyleyen_alt": "Mevlânâ ve Mevlevîlik araştırmacısı, Mesnevî mütercimi.",
+      "kaynak_eser": "TDV İslâm Ansiklopedisi"
+    },
+    {
+      "id": "gol-futuvvet",
+      "tip": "bilgi",
+      "etiket": "BİLİYOR MUSUNUZ?",
+      "metin_tr": "Ahilik ve fütüvvet üzerine bugün bildiklerimizin önemli bir kısmı, Gölpınarlı'nın fütüvvetnâme çevirileri ve araştırmalarıyla zenginleşti.",
+      "kaynak": "Abdülbaki Gölpınarlı (TDV İslâm Ansiklopedisi)",
+      "kaynak_link": "https://islamansiklopedisi.org.tr/golpinarli-abdulbaki",
+      "kaynak_tanim": "Abdülbaki Gölpınarlı (1900-1982): Mevlânâ ve Mevlevîlik araştırmacısı, Mesnevî mütercimi.",
+      "kaynak_dogrulandi": true,
+      "soyleyen": "Abdülbaki Gölpınarlı (1900-1982)",
+      "soyleyen_alt": "Mevlânâ ve Mevlevîlik araştırmacısı, Mesnevî mütercimi.",
+      "kaynak_eser": "TDV İslâm Ansiklopedisi"
+    },
+    {
+      "id": "sch-etki",
+      "tip": "bilgi",
+      "etiket": "MEVLÂNÂ ÜZERİNE",
+      "metin_tr": "Schimmel'e göre, Mevlânâ'nın etkisini göz ardı ederek İran ve Türk edebiyatını anlamak mümkün değildir.",
+      "kaynak_tanim": "Annemarie Schimmel (1922-2003): Alman şarkiyatçı, dünyanın önde gelen Mevlânâ ve tasavvuf uzmanlarından, Harvard profesörü.",
+      "kaynak_link": "https://kulliyat.semazen.net/annemarie-schimmelin-sems-i-tebrizi-yorumu/",
+      "kaynak_dogrulandi": true,
+      "soyleyen": "Annemarie Schimmel (1922-2003)",
+      "soyleyen_alt": "Alman şarkiyatçı, dünyanın önde gelen Mevlânâ ve tasavvuf uzmanlarından, Harvard profesörü.",
+      "kaynak_eser": "The Triumphal Sun (Schimmel)"
+    },
+    {
+      "id": "sch-yakut",
+      "tip": "bilgi",
+      "etiket": "MEVLÂNÂ ÜZERİNE",
+      "metin_tr": "Güneş ışığını alan bir taş, uzun sabır devreleriyle yakuta dönüşebilir. Mevlânâ da Şems'in aşkıyla değişip bambaşka biri oldu.",
+      "kaynak_tanim": "Annemarie Schimmel (1922-2003): Alman şarkiyatçı, dünyanın önde gelen Mevlânâ ve tasavvuf uzmanlarından, Harvard profesörü.",
+      "kaynak_link": "https://kulliyat.semazen.net/annemarie-schimmelin-sems-i-tebrizi-yorumu/",
+      "kaynak_dogrulandi": true,
+      "soyleyen": "Annemarie Schimmel (1922-2003)",
+      "soyleyen_alt": "Alman şarkiyatçı, dünyanın önde gelen Mevlânâ ve tasavvuf uzmanlarından, Harvard profesörü.",
+      "kaynak_eser": "The Triumphal Sun (Schimmel)"
+    },
+    {
+      "id": "sch-akil",
+      "tip": "bilgi",
+      "etiket": "MEVLÂNÂ ÜZERİNE",
+      "metin_tr": "Akıl, körlerin karanlıkta yol bulduğu bir değnektir; ama gören göze değnek değil, ışık gerekir. O ışık aşktır.",
+      "kaynak_tanim": "Annemarie Schimmel (1922-2003): Alman şarkiyatçı, dünyanın önde gelen Mevlânâ ve tasavvuf uzmanlarından, Harvard profesörü.",
+      "kaynak_link": "https://kulliyat.semazen.net/annemarie-schimmelin-sems-i-tebrizi-yorumu/",
+      "kaynak_dogrulandi": true,
+      "soyleyen": "Annemarie Schimmel (1922-2003)",
+      "soyleyen_alt": "Alman şarkiyatçı, dünyanın önde gelen Mevlânâ ve tasavvuf uzmanlarından, Harvard profesörü.",
+      "kaynak_eser": "The Triumphal Sun (Schimmel)"
+    },
+    {
+      "id": "sch-vecd",
+      "tip": "bilgi",
+      "etiket": "MEVLÂNÂ ÜZERİNE",
+      "metin_tr": "Schimmel'e göre Mevlânâ, Avrupa'da ve Amerika'da mistik vecdin âdeta şifresi hâline gelmiştir.",
+      "kaynak_tanim": "Annemarie Schimmel (1922-2003): Alman şarkiyatçı, dünyanın önde gelen Mevlânâ ve tasavvuf uzmanlarından, Harvard profesörü.",
+      "kaynak_link": "https://kulliyat.semazen.net/annemarie-schimmelin-sems-i-tebrizi-yorumu/",
+      "kaynak_dogrulandi": true,
+      "soyleyen": "Annemarie Schimmel (1922-2003)",
+      "soyleyen_alt": "Alman şarkiyatçı, dünyanın önde gelen Mevlânâ ve tasavvuf uzmanlarından, Harvard profesörü.",
+      "kaynak_eser": "The Triumphal Sun (Schimmel)"
+    },
+    {
+      "id": "sch-merhem",
+      "tip": "bilgi",
+      "etiket": "BİLİYOR MUSUNUZ?",
+      "metin_tr": "Alman âlim Schimmel, hayatının en zor günlerinde Mesnevî'yi “acısını dindiren bir merhem” diye nitelemişti.",
+      "kaynak_tanim": "Annemarie Schimmel (1922-2003): Alman şarkiyatçı, dünyanın önde gelen Mevlânâ ve tasavvuf uzmanlarından, Harvard profesörü.",
+      "kaynak_link": "https://islamansiklopedisi.org.tr/schimmel-annemarie",
+      "kaynak_dogrulandi": true,
+      "soyleyen": "Annemarie Schimmel (1922-2003)",
+      "soyleyen_alt": "Alman şarkiyatçı, dünyanın önde gelen Mevlânâ ve tasavvuf uzmanlarından, Harvard profesörü.",
+      "kaynak_eser": "TDV İslâm Ansiklopedisi"
+    },
+    {
+      "id": "gol-cenaze",
+      "tip": "bilgi",
+      "etiket": "MEVLEVÎ GELENEĞİ",
+      "metin_tr": "Mevlevî geleneğinde, Mevlânâ'dan itibaren cenazeler ney, davul ve mazhar eşliğinde, besteler okunup semâ edilerek taşınırdı. Şeriatçılar şiddetle itiraz etti; ama Mevlânâ'nın nüfuzu hepsini susturdu.",
+      "kaynak_tanim": "Abdülbaki Gölpınarlı (1900-1982): Mevlânâ ve Mevlevîlik araştırmacısı, Mesnevî mütercimi.",
+      "kaynak": "Abdülbaki Gölpınarlı, Mevlânâ'dan Sonra Mevlevîlik, s. 423-424",
+      "kaynak_link": "https://islamansiklopedisi.org.tr/golpinarli-abdulbaki",
+      "kaynak_dogrulandi": true,
+      "kaynak_eser": "Mevlânâ'dan Sonra Mevlevîlik, s. 423-424",
+      "soyleyen": "Abdülbaki Gölpınarlı (1900-1982)",
+      "soyleyen_alt": "Mevlânâ ve Mevlevîlik araştırmacısı, Mesnevî mütercimi."
+    },
+    {
+      "id": "kilic-ask",
+      "tip": "bilgi",
+      "etiket": "BİLİYOR MUSUNUZ?",
+      "metin_tr": "Aşk kelimesi Arapça “aşaka” (sarmak) kökünden gelir; “sarmaşık” ile aynı köktendir.",
+      "kaynak_tanim": "Mahmut Erol Kılıç: Tasavvuf profesörü, İbn Arabî uzmanı; Şeyh-i Ekber ve Sûfî ve Şiir kitaplarının yazarı.",
+      "kaynak_eser": "Sûfî ve Şiir (Mahmut Erol Kılıç)",
+      "kaynak_link": "https://www.kitapyurdu.com/kitap/sufi-ve-siir/433193.html",
+      "kaynak_dogrulandi": true,
+      "soyleyen": "Mahmut Erol Kılıç",
+      "soyleyen_alt": "Tasavvuf profesörü, İbn Arabî uzmanı; Şeyh-i Ekber ve Sûfî ve Şiir kitaplarının yazarı."
+    },
+    {
+      "id": "kilic-sembol",
+      "tip": "bilgi",
+      "etiket": "YORUM",
+      "metin_tr": "Kılıç'a göre, tasavvuf sembolizmini anlamadan Osmanlı şiirini hakkıyla anlamak mümkün değildir.",
+      "kaynak_tanim": "Mahmut Erol Kılıç: Tasavvuf profesörü, İbn Arabî uzmanı; Şeyh-i Ekber ve Sûfî ve Şiir kitaplarının yazarı.",
+      "kaynak_eser": "Sûfî ve Şiir (Mahmut Erol Kılıç)",
+      "kaynak_link": "https://www.kitapyurdu.com/kitap/sufi-ve-siir/433193.html",
+      "kaynak_dogrulandi": true,
+      "soyleyen": "Mahmut Erol Kılıç",
+      "soyleyen_alt": "Tasavvuf profesörü, İbn Arabî uzmanı; Şeyh-i Ekber ve Sûfî ve Şiir kitaplarının yazarı."
+    },
+    {
+      "id": "kilic-ilim",
+      "tip": "bilgi",
+      "etiket": "YORUM",
+      "metin_tr": "Tasavvufî dünya görüşünde ilim, “irtibat kurmak”tır; kâinatla, hakikatle bağ kurmaktır.",
+      "kaynak_tanim": "Mahmut Erol Kılıç: Tasavvuf profesörü, İbn Arabî uzmanı; Şeyh-i Ekber ve Sûfî ve Şiir kitaplarının yazarı.",
+      "kaynak_eser": "Sûfî ve Şiir (Mahmut Erol Kılıç)",
+      "kaynak_link": "https://www.kitapyurdu.com/kitap/sufi-ve-siir/433193.html",
+      "kaynak_dogrulandi": true,
+      "soyleyen": "Mahmut Erol Kılıç",
+      "soyleyen_alt": "Tasavvuf profesörü, İbn Arabî uzmanı; Şeyh-i Ekber ve Sûfî ve Şiir kitaplarının yazarı."
+    },
+    {
+      "id": "kilic-turbe",
+      "tip": "bilgi",
+      "etiket": "BİLİYOR MUSUNUZ?",
+      "metin_tr": "İbn Arabî ve Mevlânâ “kabrimin üstüne türbe yapmayın” diye vasiyet etmişti. Sadreddin Konevî ise “gökyüzüyle arama perde koymayın” dedi; bu yüzden Konya'da onun türbesinin üstü bugün hâlâ açıktır.",
+      "kaynak_tanim": "Mahmut Erol Kılıç: Tasavvuf profesörü, İbn Arabî uzmanı; Şeyh-i Ekber ve Sûfî ve Şiir kitaplarının yazarı.",
+      "kaynak_eser": "Sabah Ülkesi söyleşisi",
+      "kaynak_link": "https://www.sabahulkesi.com/2016/07/14/mahmut-erol-kilic-ile-soylesi/",
+      "kaynak_dogrulandi": true,
+      "soyleyen": "Mahmut Erol Kılıç",
+      "soyleyen_alt": "Tasavvuf profesörü, İbn Arabî uzmanı; Şeyh-i Ekber ve Sûfî ve Şiir kitaplarının yazarı."
+    },
+    {
+      "id": "pod-mev-ney",
+      "bolum": "Mevlana (2): Mevlana ve bir ışık kaynağı Mesnevi",
+      "bolum_kisa": "Mevlana Mesnevi",
+      "metin_tr": "Ney, kamışlıktan koparılmış bir kamıştır; insan da doğduğunda özünden, ana kaynaktan kopar. Ney'in feryadı, o ayrılığın ve geri dönme özleminin sesidir.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "pod-mev-siir",
+      "bolum": "Mevlana (2): Mevlana ve bir ışık kaynağı Mesnevi",
+      "bolum_kisa": "Mevlana Mesnevi",
+      "metin_tr": "Mevlânâ şair olmak istemedi; şiir, zor hakikatleri halka anlatmak için bir araçtı. Bu yüzden halkın dilinden konuştu: atasözleri, masallar, günlük örnekler, hatta araya espri bile kattı.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "pod-mev-dikte",
+      "bolum": "Mevlana (2): Mevlana ve bir ışık kaynağı Mesnevi",
+      "bolum_kisa": "Mevlana Mesnevi",
+      "metin_tr": "Mevlânâ Mesnevî'yi yazmadı, dikte etti: ilk 18 beyit dışında hepsini Hüsameddin Çelebi'ye söyledi. O ilk 18 beyitte, altı cildin bütün anlamının gizli olduğu söylenir.",
+      "kaynak_dogrulandi": true
     }
   ]
 }

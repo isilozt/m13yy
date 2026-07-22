@@ -67,8 +67,13 @@
       "media_id": "18082968206423445"
     }
   ],
-  "stage": "idle",
-  "pending": null,
-  "telegram_offset": 704633276,
+  "stage": "await_publish",
+  "pending": {
+    "id": "pod-mev-siir",
+    "theme": "is",
+    "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-07-22_pod-mev-siir.png",
+    "caption": "Mevlânâ şair olmak istemedi; şiir, zor hakikatleri halka anlatmak için bir araçtı. Bu yüzden halkın dilinden konuştu: atasözleri, masallar, günlük örnekler, hatta araya espri bile kattı.\n\n🎧 Bu konuyu podcast bölümümüzde konuştuk.\nSpotify, Apple Podcasts ya da YouTube'da \"Muhteşem 13. Yüzyıl Mevlana Mesnevi\" diye arat, karşına çıkarız.\n\n🔗 Tüm bölümler profildeki linkte."
+  },
+  "telegram_offset": 704633277,
   "await_edit": false
 }

@@ -1,5 +1,5 @@
 {
-  "pointer": 18,
+  "pointer": 19,
   "posted": [
     {
       "id": "mesnevi-b20",
@@ -65,15 +65,15 @@
       "id": "pod-py-ego",
       "date": "2026-07-21",
       "media_id": "18082968206423445"
+    },
+    {
+      "id": "pod-mev-siir",
+      "date": "2026-07-23",
+      "media_id": "18049242821566324"
     }
   ],
-  "stage": "await_publish",
-  "pending": {
-    "id": "pod-mev-siir",
-    "theme": "is",
-    "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-07-22_pod-mev-siir.png",
-    "caption": "Mevlânâ şair olmak istemedi; şiir, zor hakikatleri halka anlatmak için bir araçtı. Bu yüzden halkın dilinden konuştu: atasözleri, masallar, günlük örnekler, hatta araya espri bile kattı.\n\n🎧 Bu konuyu podcast bölümümüzde konuştuk.\nSpotify, Apple Podcasts ya da YouTube'da \"Muhteşem 13. Yüzyıl Mevlana Mesnevi\" diye arat, karşına çıkarız.\n\n🔗 Tüm bölümler profildeki linkte."
-  },
-  "telegram_offset": 704633277,
+  "stage": "idle",
+  "pending": null,
+  "telegram_offset": 704633281,
   "await_edit": false
 }

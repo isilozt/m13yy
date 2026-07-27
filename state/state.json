@@ -1,5 +1,5 @@
 {
-  "pointer": 19,
+  "pointer": 21,
   "posted": [
     {
       "id": "mesnevi-b20",
@@ -74,11 +74,11 @@
   ],
   "stage": "await_publish",
   "pending": {
-    "id": "gol-futuvvet",
-    "theme": "parsomen",
-    "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-07-26_gol-futuvvet.png",
-    "caption": "atla"
+    "id": "dem-konevi",
+    "theme": "kahve",
+    "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-07-27_dem-konevi.png",
+    "caption": "Demirli'ye göre tasavvufta doğru bir şey yapmak istiyorsan, önce Sadreddin Konevî'yle meseleni halletmen gerekir. Konevî, bu toprakların yetiştirdiği en büyük entelektüellerden.\n\nKaynak: Ekrem Demirli: İbn Arabî ve Sadreddin Konevî uzmanı ilahiyatçı; Fütûhât ve Fusûs'u Türkçeye kazandırdı.\n\nBizi Spotify'da takip etmeyi unutmayın 🧡\n\n🔗 Tüm bölümler için bağlantı profilde."
   },
-  "telegram_offset": 704633286,
+  "telegram_offset": 704633288,
   "await_edit": false
 }

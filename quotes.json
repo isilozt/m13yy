@@ -636,6 +636,34 @@
       "bolum_kisa": "Mevlana Mesnevi",
       "metin_tr": "Mevlânâ Mesnevî'yi yazmadı, dikte etti: ilk 18 beyit dışında hepsini Hüsameddin Çelebi'ye söyledi. O ilk 18 beyitte, altı cildin bütün anlamının gizli olduğu söylenir.",
       "kaynak_dogrulandi": true
+    },
+    {
+      "id": "pod-end-abdurrahman",
+      "bolum": "Endülüs (1): İspanya ve Portekiz'de 8 Asırlık İslam Medeniyetinin İzleri",
+      "bolum_kisa": "Endülüs",
+      "metin_tr": "Abbâsîler Emevî ailesini kılıçtan geçirirken genç Abdurrahman Endülüs'e kaçıp orada bir devlet kurdu. Suikastçilerin atları biraz daha hızlı olsaydı, tarih bambaşka olurdu.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "pod-end-maximus",
+      "bolum": "Endülüs (1): İspanya ve Portekiz'de 8 Asırlık İslam Medeniyetinin İzleri",
+      "bolum_kisa": "Endülüs",
+      "metin_tr": "İbn Arabî'nin “Şeyhü'l-Ekber” lakabı, Latince “Doctor Maximus” (En Büyük Üstad) demektir.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "pod-end-birlik",
+      "bolum": "Endülüs (1): İspanya ve Portekiz'de 8 Asırlık İslam Medeniyetinin İzleri",
+      "bolum_kisa": "Endülüs",
+      "metin_tr": "Endülüs'te Yahudiler, Müslümanlar ve Hristiyanlar uzun süre bir arada yaşadı; bu ortam, Rönesans'a giden aydınlanmanın kaynaklarından biri oldu.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "pod-end-gypsy",
+      "bolum": "Endülüs (1): İspanya ve Portekiz'de 8 Asırlık İslam Medeniyetinin İzleri",
+      "bolum_kisa": "Endülüs",
+      "metin_tr": "İngilizce “Gypsy” (Çingene) kelimesi, bu halkın Mısırlı sanılmasından, “Egyptian” kelimesinden gelir; bizim “Kıptî” kelimemizle aynı köke uzanır.",
+      "kaynak_dogrulandi": true
     }
   ]
 }

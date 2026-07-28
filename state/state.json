@@ -1,5 +1,5 @@
 {
-  "pointer": 23,
+  "pointer": 24,
   "posted": [
     {
       "id": "mesnevi-b20",
@@ -70,15 +70,15 @@
       "id": "pod-mev-siir",
       "date": "2026-07-23",
       "media_id": "18049242821566324"
+    },
+    {
+      "id": "gol-mesnevi",
+      "date": "2026-07-28",
+      "media_id": "18129054724652439"
     }
   ],
-  "stage": "await_publish",
-  "pending": {
-    "id": "gol-mesnevi",
-    "theme": "is",
-    "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-07-28_gol-mesnevi.png",
-    "caption": "Mesnevî'yi Türkçeye ilk kez tam çeviren isimlerden biri Abdülbaki Gölpınarlı'dır (6 cilt); Mevlevîliğin en büyük araştırmacısı sayılır. Yunus Emre Dîvânı'nı da yayına hazırlamıştır.\n\nKaynak: Abdülbaki Gölpınarlı (1900-1982): Mevlânâ ve Mevlevîlik araştırmacısı, Mesnevî mütercimi.\n\nBizi Spotify'da takip etmeyi unutmayın 🧡\n\n🔗 Tüm bölümler için bağlantı profilde."
-  },
-  "telegram_offset": 704633293,
+  "stage": "idle",
+  "pending": null,
+  "telegram_offset": 704633294,
   "await_edit": false
 }

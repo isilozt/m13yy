@@ -77,8 +77,8 @@
     "id": "dem-konevi",
     "theme": "kahve",
     "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-07-27_dem-konevi.png",
-    "caption": "atla ve bölüm kartı getir"
+    "caption": "atla"
   },
-  "telegram_offset": 704633290,
+  "telegram_offset": 704633291,
   "await_edit": false
 }

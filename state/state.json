@@ -1,5 +1,5 @@
 {
-  "pointer": 24,
+  "pointer": 26,
   "posted": [
     {
       "id": "mesnevi-b20",
@@ -79,11 +79,11 @@
   ],
   "stage": "await_publish",
   "pending": {
-    "id": "pod-py-nota",
-    "theme": "parsomen",
-    "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-07-30_pod-py-nota.png",
-    "caption": "Yedi notayla sonsuz müzik yaratabilirsin. Şarkın bitebilir ama sen bitemezsin.\n\n🎧 Bu konuyu podcast bölümümüzde konuştuk.\nSpotify, Apple Podcasts ya da YouTube'da \"Muhteşem 13. Yüzyıl Ölürse ten ölür\" diye arat, karşına çıkarız.\n\n🔗 Tüm bölümler profildeki linkte."
+    "id": "kav-ayn",
+    "theme": "kahve",
+    "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-07-30_kav-ayn.png",
+    "caption": "İbn Arabî'nin kavramı: her şeyin, daha yaratılmadan önce ilâhî ilimde sabit duran hakikati, özü.\n\nBizi Spotify'da takip etmeyi unutmayın 🧡\n\n🔗 Tüm bölümler için bağlantı profilde."
   },
-  "telegram_offset": 704633295,
+  "telegram_offset": 704633300,
   "await_edit": false
 }

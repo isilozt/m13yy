@@ -1,5 +1,5 @@
 {
-  "pointer": 30,
+  "pointer": 26,
   "posted": [
     {
       "id": "mesnevi-b20",
@@ -75,15 +75,15 @@
       "id": "gol-mesnevi",
       "date": "2026-07-28",
       "media_id": "18129054724652439"
+    },
+    {
+      "id": "kav-sema",
+      "date": "2026-07-30",
+      "media_id": "18160460125477885"
     }
   ],
-  "stage": "await_publish",
-  "pending": {
-    "id": "yunus-canlar",
-    "theme": "gece",
-    "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-07-30_yunus-canlar.png",
-    "caption": "“Ölürse ten ölür, canlar ölesi değil; ten fânidir, can ölmez, çün gitti geri gelmez.”\nYûnus Emre · Dîvân\n\nBizi Spotify'da takip etmeyi unutmayın 🧡\n\n🔗 Tüm bölümler için bağlantı profilde."
-  },
-  "telegram_offset": 704633305,
+  "stage": "idle",
+  "pending": null,
+  "telegram_offset": 704633307,
   "await_edit": false
 }

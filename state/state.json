@@ -1,5 +1,5 @@
 {
-  "pointer": 25,
+  "pointer": 30,
   "posted": [
     {
       "id": "mesnevi-b20",
@@ -79,11 +79,11 @@
   ],
   "stage": "await_publish",
   "pending": {
-    "id": "kav-sema",
+    "id": "yunus-canlar",
     "theme": "gece",
-    "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-07-30_kav-sema.png",
-    "caption": "Sözlükte “işitmek.” Mevlevî semâında sağ el göğe, sol el yere döner: yukarıdan alınanı halka dağıtmanın sembolü. Kâinatın dönüşüne katılmak.\n\nBizi Spotify'da takip etmeyi unutmayın 🧡\n\n🔗 Tüm bölümler için bağlantı profilde."
+    "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-07-30_yunus-canlar.png",
+    "caption": "“Ölürse ten ölür, canlar ölesi değil; ten fânidir, can ölmez, çün gitti geri gelmez.”\nYûnus Emre · Dîvân\n\nBizi Spotify'da takip etmeyi unutmayın 🧡\n\n🔗 Tüm bölümler için bağlantı profilde."
   },
-  "telegram_offset": 704633303,
+  "telegram_offset": 704633305,
   "await_edit": false
 }

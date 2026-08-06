@@ -1,5 +1,5 @@
 {
-  "pointer": 26,
+  "pointer": 27,
   "posted": [
     {
       "id": "mesnevi-b20",
@@ -80,15 +80,15 @@
       "id": "kav-sema",
       "date": "2026-07-30",
       "media_id": "18160460125477885"
+    },
+    {
+      "id": "pod-mev-ney",
+      "date": "2026-08-06",
+      "media_id": "17889895236668607"
     }
   ],
-  "stage": "await_publish",
-  "pending": {
-    "id": "pod-mev-ney",
-    "theme": "kahve",
-    "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-08-05_pod-mev-ney.png",
-    "caption": "Ney, kamışlıktan koparılmış bir kamıştır; insan da doğduğunda özünden, ana kaynaktan kopar. Ney'in feryadı, o ayrılığın ve geri dönme özleminin sesidir.\n\n🎧 Bu konuyu podcast bölümümüzde konuştuk.\nSpotify, Apple Podcasts ya da YouTube'da \"Muhteşem 13. Yüzyıl Mevlana Mesnevi\" diye arat, karşına çıkarız.\n\n🔗 Tüm bölümler profildeki linkte."
-  },
-  "telegram_offset": 704633308,
+  "stage": "idle",
+  "pending": null,
+  "telegram_offset": 704633312,
   "await_edit": false
 }

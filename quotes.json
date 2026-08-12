@@ -664,6 +664,97 @@
       "bolum_kisa": "Endülüs",
       "metin_tr": "İngilizce “Gypsy” (Çingene) kelimesi, bu halkın Mısırlı sanılmasından, “Egyptian” kelimesinden gelir; bizim “Kıptî” kelimemizle aynı köke uzanır.",
       "kaynak_dogrulandi": true
+    },
+    {
+      "id": "end2-ikiz",
+      "bolum": "Endülüs (2): Avrupa'yı Etkileyen İslam Rönesansı",
+      "bolum_kisa": "Endülüs",
+      "metin_tr": "Endülüs, Horasan'ın batıdaki ikizidir: İslam medeniyetinin aynı anda parlayan iki kutup yıldızı, biri en doğuda biri en batıda. İkisi de aynı dönemde yükselip aynı dönemde düştü; tesadüf değil, aralarında derin bağlar vardı.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "end2-convivencia",
+      "bolum": "Endülüs (2): Avrupa'yı Etkileyen İslam Rönesansı",
+      "bolum_kisa": "Endülüs",
+      "metin_tr": "Batı, Haçlı seferleriyle doğuyu yıkarken Endülüs'te üç din barış içinde bir aradaydı; buna “convivencia” denir. Ama aynı topraklardan çıkan Kolomb, bu kez o birlikte yaşamın tam tersi bir zihniyetle yeni dünyaya gitti.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "end2-ilkler",
+      "bolum": "Endülüs (2): Avrupa'yı Etkileyen İslam Rönesansı",
+      "bolum_kisa": "Endülüs",
+      "metin_tr": "Dünyanın ilk üniversitelerinden birini 859'da Fas'ta bir kadın kurdu: Fatıma el-Fihrî, Oxford'dan yaklaşık üç asır önce. Avrupa'nın ilk kâğıt fabrikası da 12. yüzyılda Valencia'da açıldı, Almanya'dakinden yaklaşık 300 yıl önce.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "end2-kabala",
+      "bolum": "Endülüs (2): Avrupa'yı Etkileyen İslam Rönesansı",
+      "bolum_kisa": "Endülüs",
+      "metin_tr": "Endülüs'ün Yahudi mistisizmi sonradan Kabala olarak gelişti; İbn Arabî'nin düşüncesiyle şaşırtıcı bağları vardır.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "end3-merkez",
+      "bolum": "Endülüs (3): Endülüs bir çekim merkezi mi yoksa bilgeliğin kendisi miydi",
+      "bolum_kisa": "Endülüs",
+      "metin_tr": "Kurtuba bir çekim merkeziydi: para, ticaret, bilime yatırım ve eğitim orada olduğu için bilim insanları oraya akardı. Çağının Silikon Vadisi gibi. Kurtuba kütüphanesinde yüz binlerce kitap vardı; o çağda dünyanın geri kalanının toplamından fazlaydı.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "end3-kopru",
+      "bolum": "Endülüs (3): Endülüs bir çekim merkezi mi yoksa bilgeliğin kendisi miydi",
+      "bolum_kisa": "Endülüs",
+      "metin_tr": "Eski Yunan bilgisi önce Bağdat ve Kurtuba'da Arapçaya, sonra Toledo'da Latinceye çevrildi; Endülüs, Kadim bilgiyi Avrupa'ya taşıyan köprüydü. Avrupa, Rönesansını ve bilimin yeniden doğuşunu büyük ölçüde Endülüs ve Horasan'a borçludur; ama bunu okullarda pek öğrenmedik.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "end3-hazm",
+      "bolum": "Endülüs (3): Endülüs bir çekim merkezi mi yoksa bilgeliğin kendisi miydi",
+      "bolum_kisa": "Endülüs",
+      "metin_tr": "İbn Hazm'ın “Güvercin Gerdanlığı” (Tavku'l-Hamâme), İslam dünyasının en güzel aşk kitaplarından biridir.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "end3-hayy",
+      "bolum": "Endülüs (3): Endülüs bir çekim merkezi mi yoksa bilgeliğin kendisi miydi",
+      "bolum_kisa": "Endülüs",
+      "metin_tr": "İbn Sînâ'nın “Hay bin Yakzân” öyküsü, ıssız bir adada tek başına büyüyen bir insanın Tanrı'yı kendi kendine keşfedişini anlatır: Robinson Crusoe'nun ilk versiyonu sayılır.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "end3-bacce",
+      "bolum": "Endülüs (3): Endülüs bir çekim merkezi mi yoksa bilgeliğin kendisi miydi",
+      "bolum_kisa": "Endülüs",
+      "metin_tr": "Endülüslü filozof İbn Bâcce'nin astronomi ve fizik çalışmaları, yüzyıllar sonra Galileo'yu etkiledi.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "end4-ibnrusd",
+      "bolum": "Endülüs (4): İbn Rüşd'den Flamenko'ya, Kabala'dan Tarot'a Endülüs'ün mirası",
+      "bolum_kisa": "Endülüs",
+      "metin_tr": "İbn Rüşd (Averroes) hem hekim hem kadıydı; sarayda “Aristo'yu araştırın” denince bu işi üstlenip Batı düşüncesini asırlarca etkileyecek şerhleri yazdı. İbn Arabî ile birlikte Endülüs'ün “damıtılmış” hâliydi: dört asırlık birikimin ete kemiğe bürünmüş sonucu diyebiliriz.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "end4-ziryab",
+      "bolum": "Endülüs (4): İbn Rüşd'den Flamenko'ya, Kabala'dan Tarot'a Endülüs'ün mirası",
+      "bolum_kisa": "Endülüs",
+      "metin_tr": "“Kara Bülbül” lakaplı Ziryâb, Bağdat'tan Kurtuba'ya bir kültür elçisi gibi geldi; müzik okulu kurdu, hatta yemek ve giyim âdetlerini bile değiştirdi.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "end4-flamenko",
+      "bolum": "Endülüs (4): İbn Rüşd'den Flamenko'ya, Kabala'dan Tarot'a Endülüs'ün mirası",
+      "bolum_kisa": "Endülüs",
+      "metin_tr": "Flamenko'nun “sevillana” dansı, turnaların kur dansına şaşırtıcı benzer: aynı boyun hareketleri, dönüşler, açılıp kapanan kanat-kollar. Aynı estetiği balede ve Mevlevî semâında da görürüz.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "end4-elhamra",
+      "bolum": "Endülüs (4): İbn Rüşd'den Flamenko'ya, Kabala'dan Tarot'a Endülüs'ün mirası",
+      "bolum_kisa": "Endülüs",
+      "metin_tr": "Elhamra Sarayı, Endülüs'ün çöküş döneminde yapıldı; sanata dönüştürülmemiş tek bir taşı bile yoktur. Bir yeryüzü cenneti hayalinin taşa dökülmüş hâlidir.",
+      "kaynak_dogrulandi": true
     }
   ]
 }

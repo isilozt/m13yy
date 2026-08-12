@@ -87,8 +87,13 @@
       "media_id": "17889895236668607"
     }
   ],
-  "stage": "idle",
-  "pending": null,
-  "telegram_offset": 704633312,
+  "stage": "await_publish",
+  "pending": {
+    "id": "end2-ikiz",
+    "theme": "koz",
+    "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-08-12_end2-ikiz.png",
+    "caption": "Endülüs, Horasan'ın batıdaki ikizidir: İslam medeniyetinin aynı anda parlayan iki kutup yıldızı, biri en doğuda biri en batıda. İkisi de aynı dönemde yükselip aynı dönemde düştü; tesadüf değil, aralarında derin bağlar vardı.\n\n🎧 Bu konuyu podcast bölümümüzde konuştuk.\nSpotify, Apple Podcasts ya da YouTube'da \"Muhteşem 13. Yüzyıl Endülüs\" diye arat, karşına çıkarız.\n\n🔗 Tüm bölümler profildeki linkte."
+  },
+  "telegram_offset": 704633313,
   "await_edit": false
 }

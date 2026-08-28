@@ -97,8 +97,13 @@
       "media_id": "18212731615351729"
     }
   ],
-  "stage": "idle",
-  "pending": null,
-  "telegram_offset": 704633326,
+  "stage": "await_publish",
+  "pending": {
+    "id": "end3-merkez",
+    "theme": "parsomen",
+    "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-08-28_end3-merkez.png",
+    "caption": "Kurtuba bir çekim merkeziydi: para, ticaret, bilime yatırım ve eğitim orada olduğu için bilim insanları oraya akardı. Çağının Silikon Vadisi gibi. Kurtuba kütüphanesinde yüz binlerce kitap vardı; o çağda dünyanın geri kalanının toplamından fazlaydı.\n\n🎧 Bu konuyu podcast bölümümüzde konuştuk.\nSpotify, Apple Podcasts ya da YouTube'da \"Muhteşem 13. Yüzyıl Endülüs\" diye arat, karşına çıkarız.\n\n🔗 Tüm bölümler profildeki linkte."
+  },
+  "telegram_offset": 704633327,
   "await_edit": false
 }

@@ -1,5 +1,5 @@
 {
-  "pointer": 30,
+  "pointer": 31,
   "posted": [
     {
       "id": "mesnevi-b20",
@@ -100,15 +100,15 @@
       "id": "end3-merkez",
       "date": "2026-08-28",
       "media_id": "18556138672076864"
+    },
+    {
+      "id": "end2-ilkler",
+      "date": "2026-09-08",
+      "media_id": "18092495732440431"
     }
   ],
-  "stage": "await_publish",
-  "pending": {
-    "id": "end2-ilkler",
-    "theme": "gece",
-    "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-09-08_end2-ilkler.png",
-    "caption": "Dünyanın ilk üniversitelerinden birini 859'da Fas'ta bir kadın kurdu: Fatıma el-Fihrî, Oxford'dan yaklaşık üç asır önce. Avrupa'nın ilk kâğıt fabrikası da 12. yüzyılda Valencia'da açıldı, Almanya'dakinden yaklaşık 300 yıl önce.\n\n🎧 Bu konuyu podcast bölümümüzde konuştuk.\nSpotify, Apple Podcasts ya da YouTube'da \"Muhteşem 13. Yüzyıl Endülüs\" diye arat, karşına çıkarız.\n\n🔗 Tüm bölümler profildeki linkte."
-  },
-  "telegram_offset": 704633331,
+  "stage": "idle",
+  "pending": null,
+  "telegram_offset": 704633334,
   "await_edit": false
 }

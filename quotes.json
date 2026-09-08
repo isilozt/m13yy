@@ -755,6 +755,34 @@
       "bolum_kisa": "Endülüs",
       "metin_tr": "Elhamra Sarayı, Endülüs'ün çöküş döneminde yapıldı; sanata dönüştürülmemiş tek bir taşı bile yoktur. Bir yeryüzü cenneti hayalinin taşa dökülmüş hâlidir.",
       "kaynak_dogrulandi": true
+    },
+    {
+      "id": "pod-ahi4-elbel",
+      "bolum": "Ahi Evran (4): Bel Bağlamak: Muhtaç Olmak mı, Aynı Ufka Bakmak mı",
+      "bolum_kisa": "Ahi Evran",
+      "metin_tr": "“Eline, diline, beline sahip ol”: eline (çalmaya), diline (gıybete), beline (ihtiraslarına) hâkim ol. Ahiliğin özü tek bir cümlede.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "pod-ahi4-bel",
+      "bolum": "Ahi Evran (4): Bel Bağlamak: Muhtaç Olmak mı, Aynı Ufka Bakmak mı",
+      "bolum_kisa": "Ahi Evran",
+      "metin_tr": "“Bel bağlamak” aslında muhtaç olmak değildir: göbek bağı gibi bir bağ kurmak, aynı ufka bakıp bir bütünün parçası olmaktır. Bugünkü deyişle “networking”in ta kendisi: herkesin birbirine bağlanıp bir ekosistem kurması.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "pod-ahi4-kalfa",
+      "bolum": "Ahi Evran (4): Bel Bağlamak: Muhtaç Olmak mı, Aynı Ufka Bakmak mı",
+      "bolum_kisa": "Ahi Evran",
+      "metin_tr": "Ahilikte “kalfa” kelimesi “halife”den gelir: ustanın ardılı, onu takip eden. “Yamak” ise “yan”dan; loncada yanda durup izleyen, öğrenen.",
+      "kaynak_dogrulandi": true
+    },
+    {
+      "id": "pod-ahi4-seyh",
+      "bolum": "Ahi Evran (4): Bel Bağlamak: Muhtaç Olmak mı, Aynı Ufka Bakmak mı",
+      "bolum_kisa": "Ahi Evran",
+      "metin_tr": "Ahilikte şeyhülmeşâyih (şeyhlerin şeyhi) bile “şunu atın” diyemezdi; bir hata varsa mahkemesi görülür, delil istenirdi. Onlar yönetici değil, öğreticiydi.",
+      "kaynak_dogrulandi": true
     }
   ]
 }

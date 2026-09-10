@@ -107,8 +107,13 @@
       "media_id": "18092495732440431"
     }
   ],
-  "stage": "idle",
-  "pending": null,
-  "telegram_offset": 704633334,
+  "stage": "await_publish",
+  "pending": {
+    "id": "end3-hazm",
+    "theme": "kahve",
+    "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-09-10_end3-hazm.png",
+    "caption": "İbn Hazm'ın “Güvercin Gerdanlığı” (Tavku'l-Hamâme), İslam dünyasının en güzel aşk kitaplarından biridir.\n\n🎧 Bu konuyu podcast bölümümüzde konuştuk.\nSpotify, Apple Podcasts ya da YouTube'da \"Muhteşem 13. Yüzyıl Endülüs\" diye arat, karşına çıkarız.\n\n🔗 Tüm bölümler profildeki linkte."
+  },
+  "telegram_offset": 704633335,
   "await_edit": false
 }

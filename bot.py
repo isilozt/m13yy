@@ -13,7 +13,7 @@ Telegram akışı:
 
 Yerel test (Telegram/IG'siz):  python bot.py prepare --dry
 """
-import argparse, datetime as dt, os
+import argparse, datetime as dt, os, time
 from pathlib import Path
 import telegram as tg
 from render import build_html, build_card, render, theme_for
@@ -28,8 +28,15 @@ PUB_BTNS = [[tg.btn("Yayınla 🚀", "yayinla")],
             [tg.btn("Düzelt ✏️", "duzelt")]]
 
 def safe_push():
-    sh("git", "pull", "--rebase", "origin", BRANCH, check=False)
-    sh("git", "push")
+    # Push çakışması (128) olursa: pull --rebase + push'u birkaç kez dene.
+    for attempt in range(4):
+        sh("git", "pull", "--rebase", "origin", BRANCH, check=False)
+        r = sh("git", "push", check=False)
+        if r.returncode == 0:
+            return
+        print(f"git push denemesi {attempt+1} başarısız (rc={r.returncode}); tekrar denenecek.")
+        time.sleep(2 + attempt * 2)
+    print("git push 4 denemede de başarısız oldu; bu tur kaydedilemedi.")
 
 def commit(msg, *paths):
     for p in paths:
@@ -92,7 +99,7 @@ def queue_next(bank, state, tip=None):
     caption = build_caption(entry, bank)
     send_card(url, caption)
     state["stage"] = "await_publish"
-    state["pending"] = {"id": entry["id"], "theme": theme,
+    state["pending"] = {"id": entry["id"], "theme": theme, "tip": tip,
                         "image_url": url, "caption": caption}
     return True
 
@@ -146,7 +153,7 @@ def handle_cb(bank, state, data):
         state["pointer"] = state.get("pointer", 0) + 1
         state["stage"] = "idle"; state["pending"] = None; state["await_edit"] = False
         tg.send_message(CHAT, "Atlandı. Sıradakini hazırlıyorum…")
-        queue_next(bank, state)
+        queue_next(bank, state, tip=pend.get("tip"))
     elif data == "duzelt":
         state["await_edit"] = True
         tg.send_message(CHAT, "Yeni caption'ı yazıp gönder.")

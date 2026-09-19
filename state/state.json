@@ -1,5 +1,5 @@
 {
-  "pointer": 31,
+  "pointer": 33,
   "posted": [
     {
       "id": "mesnevi-b20",
@@ -109,11 +109,12 @@
   ],
   "stage": "await_publish",
   "pending": {
-    "id": "end3-hazm",
-    "theme": "kahve",
-    "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-09-10_end3-hazm.png",
-    "caption": "atla"
+    "id": "sch-akil",
+    "theme": "is",
+    "tip": null,
+    "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-09-19_sch-akil.png",
+    "caption": "Akıl, körlerin karanlıkta yol bulduğu bir değnektir; ama gören göze değnek değil, ışık gerekir. O ışık aşktır.\n\nKaynak: Annemarie Schimmel (1922-2003): Alman şarkiyatçı, dünyanın önde gelen Mevlânâ ve tasavvuf uzmanlarından, Harvard profesörü.\n\nBizi Spotify'da takip etmeyi unutmayın 🧡\n\n🔗 Tüm bölümler için bağlantı profilde."
   },
-  "telegram_offset": 704633341,
+  "telegram_offset": 704633343,
   "await_edit": false
 }

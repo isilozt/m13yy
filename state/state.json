@@ -1,14 +1,14 @@
 {
-  "pointer": 2,
-  "posted": [],
-  "stage": "await_publish",
-  "pending": {
-    "id": "pod-py-nota",
-    "theme": "koz",
-    "tip": "podcast",
-    "image_url": "https://raw.githubusercontent.com/isilozt/m13yy/main/published/2026-09-22_pod-py-nota.png",
-    "caption": "Yedi notayla sonsuz müzik yaratabilirsin. Şarkın bitebilir ama sen bitemezsin.\n\n🎧 Bu konuyu podcast bölümümüzde konuştuk.\nSpotify, Apple Podcasts ya da YouTube'da \"Muhteşem 13. Yüzyıl Ölürse ten ölür\" diye arat, karşına çıkarız.\n\n🔗 Tüm bölümler profildeki linkte."
-  },
-  "telegram_offset": 704633351,
+  "pointer": 3,
+  "posted": [
+    {
+      "id": "pod-py-nota",
+      "date": "2026-09-25",
+      "media_id": "18107400317230450"
+    }
+  ],
+  "stage": "idle",
+  "pending": null,
+  "telegram_offset": 704633352,
   "await_edit": false
 }

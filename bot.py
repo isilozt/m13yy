@@ -13,7 +13,7 @@ Telegram akışı:
 
 Yerel test (Telegram/IG'siz):  python bot.py prepare --dry
 """
-import argparse, datetime as dt, os, time
+import argparse, datetime as dt, os, time, random
 from pathlib import Path
 import telegram as tg
 from render import build_html, build_card, render, theme_for
@@ -80,7 +80,9 @@ def pick_typed(bank, state, tip=None):
     posted_ids = {p.get("id") for p in state.get("posted", [])}
     fresh = [g for g in items if g["id"] not in posted_ids]
     pool = fresh if fresh else items
-    return pool[state.get("pointer", 0) % len(pool)]
+    # Sıra sayacına (pointer) bağlı kalmak yerine rastgele seç: push kaydedilemese
+    # bile her seferinde farklı bölüm/kart gelir, aynı karta takılmaz.
+    return random.choice(pool)
 
 def queue_next(bank, state, tip=None):
     """idle ise sıradaki kartı hazırlayıp yollar. tip ile alıntı/bilgi süzülür."""

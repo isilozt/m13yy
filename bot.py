@@ -28,15 +28,27 @@ PUB_BTNS = [[tg.btn("Yayınla 🚀", "yayinla")],
             [tg.btn("Düzelt ✏️", "duzelt")]]
 
 def safe_push():
-    # Push çakışması (128) olursa: pull --rebase + push'u birkaç kez dene.
-    for attempt in range(4):
-        sh("git", "pull", "--rebase", "origin", BRANCH, check=False)
+    # Push reddedilirse (çakışma/128) ASLA yarıda kalma: uzaktakinin tam haline geç
+    # (quotes.json gibi dışarıdan gelen düzenlemeleri koru), kendi state.json'ımızı
+    # yeniden yazıp tekrar gönder. state.json tek yazıcı olduğu için bizim sürüm kazanır.
+    for attempt in range(5):
         r = sh("git", "push", check=False)
         if r.returncode == 0:
             return
-        print(f"git push denemesi {attempt+1} başarısız (rc={r.returncode}); tekrar denenecek.")
-        time.sleep(2 + attempt * 2)
-    print("git push 4 denemede de başarısız oldu; bu tur kaydedilemedi.")
+        print(f"push reddedildi (deneme {attempt+1}, rc={r.returncode}); uzaktakiyle eşitleniyor.")
+        try:
+            mystate = Path("state/state.json").read_text(encoding="utf-8")
+        except Exception:
+            mystate = None
+        sh("git", "rebase", "--abort", check=False)          # yarıda kalan rebase varsa temizle
+        sh("git", "fetch", "origin", BRANCH, check=False)
+        sh("git", "reset", "--hard", f"origin/{BRANCH}", check=False)  # uzaktakinin tamı
+        if mystate is not None:
+            Path("state/state.json").write_text(mystate, encoding="utf-8")
+            sh("git", "add", "state/state.json", check=False)
+            sh("git", "commit", "-m", "state güncelle", check=False)
+        time.sleep(1 + attempt)
+    print("git push 5 denemede de başarısız oldu; bu tur kaydedilemedi.")
 
 def commit(msg, *paths):
     for p in paths:
